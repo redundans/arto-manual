@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-09T13:50:28.183Z",
+  "enabled": true,
+  "blocks": [
+    {
+      "key": "share-preview",
+      "block_id": "share-preview",
+      "index": 1,
+      "questions_total": 4,
+      "blocking": 0,
+      "checkable": 3,
+      "resolved": 0,
+      "unresolved": [
+        {
+          "id": "share-preview#1",
+          "kind": "invented_copy",
+          "severity": "advisory"
+        },
+        {
+          "id": "share-preview#2",
+          "kind": "source_component_unrendered",
+          "severity": "advisory"
+        },
+        {
+          "id": "share-preview#3",
+          "kind": "source_labels_missing",
+          "severity": "advisory"
+        }
+      ],
+      "questions": [
+        {
+          "id": "share-preview#1",
+          "kind": "invented_copy",
+          "severity": "advisory",
+          "check": "metric_count_max",
+          "resolved": false
+        },
+        {
+          "id": "share-preview#2",
+          "kind": "source_component_unrendered",
+          "severity": "advisory",
+          "check": "html_contains_any",
+          "resolved": false
+        },
+        {
+          "id": "share-preview#3",
+          "kind": "source_labels_missing",
+          "severity": "advisory",
+          "check": "html_contains_any",
+          "resolved": false
+        },
+        {
+          "id": "share-preview#4",
+          "kind": "compare",
+          "severity": "advisory",
+          "check": "manual",
+          "resolved": null
+        }
+      ],
+      "html_changed": false,
+      "png_changed": false,
+      "render_before": 97,
+      "render_after": 97,
+      "chrome_before": null,
+      "chrome_after": null,
+      "errors_after": 0,
+      "warnings_after": 1
+    },
+    {
+      "key": "create-post",
+      "block_id": "create-post",
+      "index": 0,
+      "questions_total": 3,
+      "blocking": 0,
+      "checkable": 2,
+      "resolved": 0,
+      "unresolved": [
+        {
+          "id": "create-post#1",
+          "kind": "source_component_unrendered",
+          "severity": "advisory"
+        },
+        {
+          "id": "create-post#2",
+          "kind": "source_labels_missing",
+          "severity": "advisory"
+        }
+      ],
+      "questions": [
+        {
+          "id": "create-post#1",
+          "kind": "source_component_unrendered",
+          "severity": "advisory",
+          "check": "html_contains_any",
+          "resolved": false
+        },
+        {
+          "id": "create-post#2",
+          "kind": "source_labels_missing",
+          "severity": "advisory",
+          "check": "html_contains_any",
+          "resolved": false
+        },
+        {
+          "id": "create-post#3",
+          "kind": "compare",
+          "severity": "advisory",
+          "check": "manual",
+          "resolved": null
+        }
+      ],
+      "html_changed": false,
+      "png_changed": false,
+      "render_before": 97,
+      "render_after": 97,
+      "chrome_before": null,
+      "chrome_after": null,
+      "errors_after": 0,
+      "warnings_after": 0
+    },
+    {
+      "key": "set-end-date",
+      "block_id": "set-end-date",
+      "index": 2,
+      "questions_total": 2,
+      "blocking": 0,
+      "checkable": 1,
+      "resolved": 0,
+      "unresolved": [
+        {
+          "id": "set-end-date#1",
+          "kind": "source_component_unrendered",
+          "severity": "advisory"
+        }
+      ],
+      "questions": [
+        {
+          "id": "set-end-date#1",
+          "kind": "source_component_unrendered",
+          "severity": "advisory",
+          "check": "html_contains_any",
+          "resolved": false
+        },
+        {
+          "id": "set-end-date#2",
+          "kind": "compare",
+          "severity": "advisory",
+          "check": "manual",
+          "resolved": null
+        }
+      ],
+      "html_changed": false,
+      "png_changed": false,
+      "render_before": 97,
+      "render_after": 97,
+      "chrome_before": null,
+      "chrome_after": null,
+      "errors_after": 0,
+      "warnings_after": 0
+    }
+  ],
+  "totals": {
+    "blocks_ticketed": 3,
+    "questions": 9,
+    "blocking": 0,
+    "checkable": 6,
+    "resolved": 0,
+    "blocks_html_changed": 0,
+    "blocks_png_changed": 0,
+    "blocks_with_errors_after": 0
+  }
+}

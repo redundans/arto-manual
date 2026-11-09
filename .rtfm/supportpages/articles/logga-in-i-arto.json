@@ -1,0 +1,26 @@
+{
+  "project_id": "125",
+  "api_origin": "https://app.supportpages.io",
+  "local_article_id": "b724e60a-5e36-4e4d-a646-e522d065b036",
+  "artifact_dir": ".rtfm/supportpages/work/125/logga-in-i-arto",
+  "bundle_dir": ".rtfm/supportpages/bundles/2d5b7cd83bb00ad9a0872a503d2fff71f4470865b5e31b52411234d6f1cfe725",
+  "bundle_hash": "2d5b7cd83bb00ad9a0872a503d2fff71f4470865b5e31b52411234d6f1cfe725",
+  "remote": {
+    "repository_connection": {
+      "state": "not_connected",
+      "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion",
+      "capabilities": {
+        "sections": false,
+        "suggestions": false,
+        "code_analysis": false,
+        "maintenance": false
+      }
+    },
+    "id": "1349",
+    "revision": "858c9c70df656a950d01d733ff1e92c910d46bd2db7cfb4a7cc4a4bae5f90dbe",
+    "status": "draft",
+    "editor_url": "https://app.supportpages.io/projects/project-d6ea4432/articles_page?article=1349",
+    "public_url": null
+  },
+  "uploaded_bundle_hash": "2d5b7cd83bb00ad9a0872a503d2fff71f4470865b5e31b52411234d6f1cfe725"
+}

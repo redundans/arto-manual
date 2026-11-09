@@ -1,0 +1,108 @@
+{
+  "framework": "wordpress",
+  "project_dir": ".",
+  "global_errors": [],
+  "global_warnings": [],
+  "all_passed": true,
+  "metrics": {
+    "action_coverage": null,
+    "runtime_states_selected": null,
+    "undefined_css_vars": {
+      "count": 0
+    },
+    "errors_total": 0,
+    "warnings_total": 1
+  },
+  "blocks": [
+    {
+      "index": 1,
+      "primary_view": "../hopp-wordpress/web/wp/wp-login.php",
+      "errors": [],
+      "warnings": [],
+      "metrics": {
+        "shell_nav_labels": null,
+        "chrome_files_expanded": null,
+        "runtime_ui_strings": null,
+        "runtime_regions_rendered": null,
+        "root_classes_html": null,
+        "layout_root_classes": null,
+        "verbatim_evidence_source": {
+          "hits": 5,
+          "total": 5,
+          "ratio": 1
+        },
+        "verbatim_evidence_html": {
+          "hits": 5,
+          "total": 5,
+          "ratio": 1
+        },
+        "partials_present": {
+          "hits": 1,
+          "total": 1,
+          "ratio": 1
+        },
+        "body_class_tokens": null,
+        "styled_coverage": {
+          "hits": 19,
+          "total": 28,
+          "ratio": 0.679
+        },
+        "inline_classes_verified": null,
+        "invented_colours": {
+          "count": 0
+        },
+        "invented_copy": {
+          "count": 0
+        },
+        "screen_closure": null
+      },
+      "block_id": "logga-in"
+    },
+    {
+      "index": 4,
+      "primary_view": "../hopp-wordpress/web/wp/wp-login.php",
+      "errors": [],
+      "warnings": [
+        "2 multi-word phrase(s) in step_4.html do not appear in any listed source file or locale: \"senord Ange ditt anv\", \"postmeddelande med instruktioner om hur du\""
+      ],
+      "metrics": {
+        "shell_nav_labels": null,
+        "chrome_files_expanded": null,
+        "runtime_ui_strings": null,
+        "runtime_regions_rendered": null,
+        "root_classes_html": null,
+        "layout_root_classes": null,
+        "verbatim_evidence_source": {
+          "hits": 3,
+          "total": 3,
+          "ratio": 1
+        },
+        "verbatim_evidence_html": {
+          "hits": 3,
+          "total": 3,
+          "ratio": 1
+        },
+        "partials_present": {
+          "hits": 1,
+          "total": 1,
+          "ratio": 1
+        },
+        "body_class_tokens": null,
+        "styled_coverage": {
+          "hits": 13,
+          "total": 20,
+          "ratio": 0.65
+        },
+        "inline_classes_verified": null,
+        "invented_colours": {
+          "count": 0
+        },
+        "invented_copy": {
+          "count": 2
+        },
+        "screen_closure": null
+      },
+      "block_id": "glomt-losenordet"
+    }
+  ]
+}

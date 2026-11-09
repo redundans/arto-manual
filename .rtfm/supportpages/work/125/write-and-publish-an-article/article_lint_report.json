@@ -1,0 +1,117 @@
+{
+  "all_passed": false,
+  "mode": "fail",
+  "global_errors": [],
+  "global_warnings": [
+    "how-to title should start with \"How to\"",
+    "block \"publish-post\" exceeds the 3-sentence guidance",
+    "block \"set-end-date\" exceeds the 3-sentence guidance"
+  ],
+  "blocks": [
+    {
+      "block_id": "introduction",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "block_id": "prerequisites",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "block_id": "create-post",
+      "errors": [
+        "bold UI name \"Inlägg\" appears in none of the resolved source files"
+      ],
+      "warnings": []
+    },
+    {
+      "block_id": "write-content",
+      "errors": [],
+      "warnings": [
+        "bold UI name \"Lead\" is not in this block's own sources",
+        "bold UI name \"Lägg till block\" appears in none of the resolved source files"
+      ]
+    },
+    {
+      "block_id": "arto-blocks",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "block_id": "save-draft",
+      "errors": [],
+      "warnings": [
+        "bold UI name \"Spara utkast\" is not in this block's own sources",
+        "bold UI name \"Utkast\" is not in this block's own sources"
+      ]
+    },
+    {
+      "block_id": "preview-post",
+      "errors": [],
+      "warnings": [
+        "bold UI name \"Förhandsgranska\" is not in this block's own sources",
+        "bold UI name \"Förhandsgranska i ny flik\" appears in none of the resolved source files"
+      ]
+    },
+    {
+      "block_id": "share-preview",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "block_id": "preview-link-limits",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "block_id": "publish-post",
+      "errors": [],
+      "warnings": [
+        "bold UI name \"Publicera\" is not in this block's own sources",
+        "bold UI name \"Är du redo att publicera\" appears in none of the resolved source files",
+        "bold UI name \"Publicera\" is not in this block's own sources",
+        "bold UI name \"Uppdatera\" is not in this block's own sources"
+      ]
+    },
+    {
+      "block_id": "schedule-post",
+      "errors": [],
+      "warnings": [
+        "bold UI name \"Genast\" is not in this block's own sources",
+        "bold UI name \"Tidsinställ\" appears in none of the resolved source files",
+        "bold UI name \"Schemalagd\" appears in none of the resolved source files"
+      ]
+    },
+    {
+      "block_id": "duplicate-post",
+      "errors": [],
+      "warnings": [
+        "bold UI name \"Duplicate\" appears in none of the resolved source files"
+      ]
+    },
+    {
+      "block_id": "set-end-date",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "block_id": "mark-complete",
+      "errors": [],
+      "warnings": [
+        "bold UI name \"Mark as complete\" is not in this block's own sources",
+        "bold UI name \"Completed\" is not in this block's own sources"
+      ]
+    },
+    {
+      "block_id": "summary",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "metrics": {
+    "inline_code_spans": 0,
+    "fenced_blocks": 0,
+    "untagged_fences": 0
+  }
+}

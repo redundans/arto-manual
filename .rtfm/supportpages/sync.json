@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "status": "ready",
+  "project": {
+    "id": "125",
+    "name": "Arto Manual",
+    "help_centre_url": "https://arto.supportpages.io"
+  },
+  "api_origin": "https://app.supportpages.io",
+  "walkthroughs": {
+    "status": "ready",
+    "synced_at": "2026-11-09T13:13:59.543Z",
+    "project_id": "125",
+    "api_origin": "https://app.supportpages.io",
+    "items": [],
+    "counts": {
+      "remote": 0,
+      "changed": 0,
+      "unavailable": 0
+    },
+    "instructions": "Current walkthrough metadata is refreshed. Missing videos are unavailable (removed or their article is no longer accessible); last_known is historical. Reads never regenerate or share a video."
+  },
+  "synced_at": "2026-11-09T13:50:46.127Z",
+  "product_context": {
+    "target_audience": "end_users",
+    "industry": "saas",
+    "project_type": [
+      "web"
+    ],
+    "documentation_goals": [
+      "support",
+      "onboarding",
+      "features"
+    ],
+    "tone_preference": "formal",
+    "product_stage": "mature"
+  },
+  "writing_style": "Voice: neutral and authoritative. Suitable for compliance or regulated contexts.\nVocabulary: complete, proper terms. No slang, no casual asides, no contractions (\"do not\", not \"don't\").\nSentence structure: complete, well-formed sentences — but concise; formal does not mean verbose.\nPoint of view: address the reader as \"you\" or use neutral phrasing (\"Users may…\"); maintain a professional distance.\nDo: \"Select **Save** to apply your changes.\" / \"Ensure the certificate is valid before proceeding.\"\nDon't: \"Just hit save and you're good to go.\" / emoji, slang, or jokey asides.\n\nAudience — end users/customers: assume no technical background. Avoid jargon entirely or define it in plain terms. Focus on the task they want to complete, not the mechanism behind it.\n\nMaturity — mature/enterprise: thorough and dependable in tone. Readers expect stability, completeness, and precision.",
+  "articles": [
+    {
+      "local_article_id": "b724e60a-5e36-4e4d-a646-e522d065b036",
+      "artifact_dir": ".rtfm/supportpages/work/125/logga-in-i-arto",
+      "run_id": "08e4f856-0b53-4477-902e-fea4b8cc36e6",
+      "title": "Logga in i Arto",
+      "phase": "ready_for_review",
+      "baseline": {
+        "repository_connection": {
+          "state": "not_connected",
+          "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion",
+          "capabilities": {
+            "sections": false,
+            "suggestions": false,
+            "code_analysis": false,
+            "maintenance": false
+          }
+        },
+        "id": "1349",
+        "revision": "858c9c70df656a950d01d733ff1e92c910d46bd2db7cfb4a7cc4a4bae5f90dbe",
+        "status": "draft",
+        "editor_url": "https://app.supportpages.io/projects/project-d6ea4432/articles_page?article=1349",
+        "public_url": null
+      },
+      "changed": false,
+      "content_changed": false,
+      "bundle_hash": "2d5b7cd83bb00ad9a0872a503d2fff71f4470865b5e31b52411234d6f1cfe725",
+      "generation_attempt": "48bb46be-b8f1-4ade-8ccb-14789206e552",
+      "remote": {
+        "repository_connection": {
+          "state": "not_connected",
+          "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion",
+          "capabilities": {
+            "sections": false,
+            "suggestions": false,
+            "code_analysis": false,
+            "maintenance": false
+          }
+        },
+        "id": "1349",
+        "revision": "03380d2d3feb2187ad1ccc93696250beb79641536a995ab104e871c35849c231",
+        "status": "published",
+        "editor_url": "https://app.supportpages.io/projects/project-d6ea4432/articles_page?article=1349",
+        "public_url": "https://arto.supportpages.io/logga-in-i-arto",
+        "local_article_id": "b724e60a-5e36-4e4d-a646-e522d065b036",
+        "title": "Logga in i Arto",
+        "section_id": null,
+        "deleted_at": null,
+        "accepted_bundle_hash": null,
+        "generation": {
+          "run_id": "08e4f856-0b53-4477-902e-fea4b8cc36e6",
+          "attempt": "48bb46be-b8f1-4ade-8ccb-14789206e552",
+          "state": "complete"
+        }
+      },
+      "sync_status": "remote_changed"
+    },
+    {
+      "local_article_id": "cb80dcbd-4a8a-4f64-89c7-c857bb1b5a24",
+      "artifact_dir": ".rtfm/supportpages/work/125/write-and-publish-an-article",
+      "run_id": "0aba2aee-3b0d-40d8-9a33-53f220850506",
+      "title": "Write and publish an article",
+      "phase": "ready_for_review",
+      "baseline": {
+        "repository_connection": {
+          "state": "not_connected",
+          "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion",
+          "capabilities": {
+            "sections": false,
+            "suggestions": false,
+            "code_analysis": false,
+            "maintenance": false
+          }
+        },
+        "id": "1350",
+        "revision": "e2271f601e97f21b04bbbdcc9aa9905549ae465eb1624d78eabd0fc422cc1a33",
+        "status": "draft",
+        "editor_url": "https://app.supportpages.io/projects/project-d6ea4432/articles_page?article=1350",
+        "public_url": null
+      },
+      "changed": false,
+      "content_changed": false,
+      "bundle_hash": "a4ed03498464762f0a6a81b7e0472180f3b73ea5e695c1b01d7a91e7fb87ac05",
+      "generation_attempt": "32c3e90a-5e47-4c13-a9b2-83a90b9e6e38",
+      "remote": {
+        "repository_connection": {
+          "state": "not_connected",
+          "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion",
+          "capabilities": {
+            "sections": false,
+            "suggestions": false,
+            "code_analysis": false,
+            "maintenance": false
+          }
+        },
+        "id": "1350",
+        "revision": "e2271f601e97f21b04bbbdcc9aa9905549ae465eb1624d78eabd0fc422cc1a33",
+        "status": "draft",
+        "editor_url": "https://app.supportpages.io/projects/project-d6ea4432/articles_page?article=1350",
+        "public_url": null,
+        "local_article_id": "cb80dcbd-4a8a-4f64-89c7-c857bb1b5a24",
+        "title": "Write and publish an article",
+        "section_id": null,
+        "deleted_at": null,
+        "accepted_bundle_hash": "a4ed03498464762f0a6a81b7e0472180f3b73ea5e695c1b01d7a91e7fb87ac05",
+        "generation": {
+          "run_id": "0aba2aee-3b0d-40d8-9a33-53f220850506",
+          "attempt": "32c3e90a-5e47-4c13-a9b2-83a90b9e6e38",
+          "state": "complete"
+        }
+      },
+      "sync_status": "synced"
+    }
+  ],
+  "counts": {
+    "local": 2,
+    "remote": 2,
+    "conflicts": 0,
+    "deleted": 0
+  },
+  "instructions": "Remote settings and article metadata are current. Local content is preserved. Review remote edits in the editor before updating an article; never recreate a remotely deleted article automatically."
+}

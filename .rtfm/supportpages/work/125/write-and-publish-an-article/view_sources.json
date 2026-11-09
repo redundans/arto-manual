@@ -1,0 +1,154 @@
+{
+  "framework": "wordpress",
+  "action_coverage": [
+    {
+      "article_block_id": "create-post",
+      "screenshot_block_id": "create-post",
+      "kind": "type",
+      "target": "Lägg till rubrik",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "write-content",
+      "screenshot_block_id": "create-post",
+      "kind": "type",
+      "target": "Lead",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "save-draft",
+      "screenshot_block_id": "create-post",
+      "kind": "click",
+      "target": "Spara utkast",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "preview-post",
+      "screenshot_block_id": "create-post",
+      "kind": "click",
+      "target": "Förhandsgranska",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "publish-post",
+      "screenshot_block_id": "create-post",
+      "kind": "click",
+      "target": "Publicera",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "share-preview",
+      "screenshot_block_id": "share-preview",
+      "kind": "toggle",
+      "target": "Enable public preview",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "schedule-post",
+      "screenshot_block_id": "share-preview",
+      "kind": "click",
+      "target": "Genast",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "set-end-date",
+      "screenshot_block_id": "set-end-date",
+      "kind": "click",
+      "target": "Set end date",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "mark-complete",
+      "screenshot_block_id": "set-end-date",
+      "kind": "click",
+      "target": "Mark as complete",
+      "state": "action-ready"
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "create-post",
+      "primary_view": "../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js",
+      "partials_expanded": [
+        "../hopp-wordpress/web/app/themes/hopp/editor/editor.php"
+      ],
+      "verbatim_evidence": [
+        {
+          "string": "Lägg till rubrik",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE.po"
+        },
+        {
+          "string": "Spara utkast",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE-bf0f094965d3d4a95b47babcb35fc136.json"
+        },
+        {
+          "string": "Förhandsgranska",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE.po"
+        },
+        {
+          "string": "Publicera",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE-803bf1ce2131e13efc590c1bc47851fc.json"
+        },
+        {
+          "string": "Lead",
+          "found_in": "../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js"
+        },
+        {
+          "string": "Write your lead here...",
+          "found_in": "../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js"
+        }
+      ],
+      "depicted_state": "New post editor with the empty headline field, the empty Lead block, and Spara utkast, Förhandsgranska and Publicera all available before selection"
+    },
+    {
+      "block_id": "share-preview",
+      "primary_view": "../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js",
+      "partials_expanded": [],
+      "verbatim_evidence": [
+        {
+          "string": "Enable public preview",
+          "found_in": "../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js"
+        },
+        {
+          "string": "Genast",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE-bf0f094965d3d4a95b47babcb35fc136.json"
+        },
+        {
+          "string": "Utkast",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE-bf0f094965d3d4a95b47babcb35fc136.json"
+        },
+        {
+          "string": "Spara utkast",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE-bf0f094965d3d4a95b47babcb35fc136.json"
+        }
+      ],
+      "depicted_state": "Draft post settings panel with Genast and the unchecked Enable public preview check box visible before selection"
+    },
+    {
+      "block_id": "set-end-date",
+      "primary_view": "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js",
+      "partials_expanded": [
+        "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/complete-button.js"
+      ],
+      "verbatim_evidence": [
+        {
+          "string": "End date",
+          "found_in": "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js"
+        },
+        {
+          "string": "Set end date",
+          "found_in": "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js"
+        },
+        {
+          "string": "Mark as complete",
+          "found_in": "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/complete-button.js"
+        },
+        {
+          "string": "Uppdatera",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE-569e85ef168299eb8c8f24d8ef8c8a78.json"
+        }
+      ],
+      "depicted_state": "Published campaign settings panel with End date, Set end date and Mark as complete visible before selection"
+    }
+  ]
+}

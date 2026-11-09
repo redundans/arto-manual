@@ -1,0 +1,47 @@
+{
+  "css": "./.rtfm/branding.css",
+  "undefined_vars": {
+    "errors": [],
+    "warnings": []
+  },
+  "views": [
+    {
+      "view": "web/wp/wp-login.php",
+      "total": 61,
+      "matched": 40,
+      "unmatched": [
+        ".wp-login-logo",
+        ".admin-email__actions-primary",
+        ".admin-email__actions-secondary",
+        ".wp-login-log-in",
+        ".wp-login-register",
+        ".pw-checkbox",
+        ".user-pass2-wrap",
+        ".skip-aria-expanded",
+        ".wp-login-lost-password",
+        ".user-pass-wrap",
+        "#correct-admin-email",
+        "#lostpasswordform",
+        "#user_login",
+        "#wp-submit",
+        "#resetpassform",
+        "#pw-weak",
+        "#pass2",
+        "#registerform",
+        "#user_email",
+        "#user_pass",
+        "#rememberme"
+      ]
+    }
+  ],
+  "root_offset_classes": {
+    "errors": [],
+    "warnings": [],
+    "candidates": {
+      "html": [],
+      "body": []
+    }
+  },
+  "failed": false,
+  "soft": false
+}

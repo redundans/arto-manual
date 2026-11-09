@@ -1,0 +1,89 @@
+{
+  "id": "08e4f856-0b53-4477-902e-fea4b8cc36e6",
+  "local_article_id": "b724e60a-5e36-4e4d-a646-e522d065b036",
+  "artifact_dir": ".rtfm/supportpages/work/125/logga-in-i-arto",
+  "started_at": "2026-11-09T13:14:08.958Z",
+  "section_id": null,
+  "status": "finalized",
+  "skills_version": "1.63.0",
+  "article_type": "how-to",
+  "progress": {
+    "attempt": "48bb46be-b8f1-4ade-8ccb-14789206e552",
+    "article": {
+      "repository_connection": {
+        "state": "not_connected",
+        "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion",
+        "capabilities": {
+          "sections": false,
+          "suggestions": false,
+          "code_analysis": false,
+          "maintenance": false
+        }
+      },
+      "id": "1349",
+      "revision": "747241b0fe4552f2dca92b8e2e05803a90a67cd346c73b250588f5d6912cf842",
+      "status": "draft",
+      "editor_url": "https://app.supportpages.io/projects/project-d6ea4432/articles_page?article=1349",
+      "public_url": null
+    },
+    "sequence": 4,
+    "article_hash": "ec17dd468bf6a70ad9d25bceba3b63395e372318a5841039264ac95757ef08be",
+    "image_hashes": {
+      "logga-in": "bbcb3796d382dc7e8f1a887349bd705cfd23c95a92fc2bb4c4f7db74dd550b14",
+      "glomt-losenordet": "da38d64fe3c04b0098d9ed560920e9f6bc70be9a8eb4dba0aea18c1649510305"
+    },
+    "last_heartbeat": 1794230313047,
+    "open_attempted": false
+  },
+  "title": "Logga in i Arto",
+  "api_origin": "https://app.supportpages.io",
+  "project_id": "125",
+  "codebase_dir": ".",
+  "analysis_dir": ".rtfm/supportpages/setup/tasks/5fa1a4b5-183a-45cb-9590-a88e60ceaafd",
+  "prefer_background": true,
+  "open_when_ready": false,
+  "execution_mode": "background",
+  "writer_token": "372171b0-913d-434f-a1b9-7bdd2b4cec93",
+  "writer_started_at": "2026-11-09T13:14:39.053Z",
+  "writer_completed_at": "2026-11-09T13:18:50.897Z",
+  "first_writer_started_at": "2026-11-09T13:14:38.086Z",
+  "ready_for_review_at": "2026-11-09T13:18:52.065Z",
+  "session_id": "994e8757-5764-4921-884b-e1c9169c5e8d",
+  "updated_at": "2026-11-09T13:19:00.246Z",
+  "phase": "ready_for_review",
+  "bundle_dir": ".rtfm/supportpages/bundles/2d5b7cd83bb00ad9a0872a503d2fff71f4470865b5e31b52411234d6f1cfe725",
+  "bundle_hash": "2d5b7cd83bb00ad9a0872a503d2fff71f4470865b5e31b52411234d6f1cfe725",
+  "remote": {
+    "repository_connection": {
+      "state": "not_connected",
+      "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion",
+      "capabilities": {
+        "sections": false,
+        "suggestions": false,
+        "code_analysis": false,
+        "maintenance": false
+      }
+    },
+    "id": "1349",
+    "revision": "858c9c70df656a950d01d733ff1e92c910d46bd2db7cfb4a7cc4a4bae5f90dbe",
+    "status": "draft",
+    "editor_url": "https://app.supportpages.io/projects/project-d6ea4432/articles_page?article=1349",
+    "public_url": null,
+    "local_article_id": "b724e60a-5e36-4e4d-a646-e522d065b036",
+    "title": "Logga in i Arto",
+    "section_id": null,
+    "deleted_at": null,
+    "accepted_bundle_hash": "2d5b7cd83bb00ad9a0872a503d2fff71f4470865b5e31b52411234d6f1cfe725",
+    "generation": {
+      "run_id": "08e4f856-0b53-4477-902e-fea4b8cc36e6",
+      "attempt": "48bb46be-b8f1-4ade-8ccb-14789206e552",
+      "state": "complete"
+    }
+  },
+  "repository_reminder_checked": true,
+  "repository_invitation": {
+    "id": "agent_allowance",
+    "message": "Keep your coding-agent allowance for building your product. Generate future articles using your SupportPages.io plan’s AI allowance.",
+    "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion&nudge=agent_allowance"
+  }
+}

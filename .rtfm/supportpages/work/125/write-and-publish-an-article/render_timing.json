@@ -1,0 +1,38 @@
+{
+  "total_ms": 5549,
+  "browser_launch_ms": 1295,
+  "concurrency": 1,
+  "all_passed": true,
+  "steps": [
+    {
+      "file": "block_create-post.html",
+      "ok": true,
+      "ms": 1467,
+      "quality": "good",
+      "score": 97,
+      "geometry_errors": [],
+      "evidence_invisible": [],
+      "evidence_checked": 6
+    },
+    {
+      "file": "block_set-end-date.html",
+      "ok": true,
+      "ms": 1282,
+      "quality": "good",
+      "score": 97,
+      "geometry_errors": [],
+      "evidence_invisible": [],
+      "evidence_checked": 4
+    },
+    {
+      "file": "block_share-preview.html",
+      "ok": true,
+      "ms": 1366,
+      "quality": "good",
+      "score": 97,
+      "geometry_errors": [],
+      "evidence_invisible": [],
+      "evidence_checked": 4
+    }
+  ]
+}

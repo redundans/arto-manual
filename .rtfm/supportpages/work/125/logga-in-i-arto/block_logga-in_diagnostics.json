@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-11-09T13:18:46.629Z",
+  "viewport": {
+    "width": 1480,
+    "height": 900,
+    "viewportCrop": true
+  },
+  "metrics": {
+    "width": 1480,
+    "height": 900,
+    "hasChildren": true,
+    "childCount": 1,
+    "visibleElementCount": 20,
+    "hasTextContent": true,
+    "textLength": 107,
+    "backgroundColor": "rgb(240, 240, 241)",
+    "imageCount": 0,
+    "loadedImageCount": 0,
+    "regionGeometry": {
+      "checked": false,
+      "regions": [],
+      "errors": []
+    },
+    "isLikelyBlank": false,
+    "contentHeight": 900,
+    "isClipped": false,
+    "evidenceVisibility": [
+      {
+        "string": "Användarnamn eller e-postadress",
+        "visible": true,
+        "visible_px": 4577,
+        "match_kind": "text"
+      },
+      {
+        "string": "Lösenord",
+        "visible": true,
+        "visible_px": 1264,
+        "match_kind": "text"
+      },
+      {
+        "string": "Kom ihåg mig",
+        "visible": true,
+        "visible_px": 1834,
+        "match_kind": "text"
+      },
+      {
+        "string": "Logga in",
+        "visible": true,
+        "visible_px": 2484,
+        "match_kind": "input_value"
+      },
+      {
+        "string": "Glömt ditt lösenord?",
+        "visible": true,
+        "visible_px": 1969,
+        "match_kind": "text"
+      }
+    ],
+    "watermark": true
+  },
+  "pageErrors": [],
+  "failedResources": [
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "resourceType": "script",
+      "reason": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "blockedExternalResources": [
+    "https://cdn.tailwindcss.com/"
+  ],
+  "stageTimings": {
+    "newPage": 32,
+    "setViewport": 1,
+    "goto": 970,
+    "addStyleTag": 8,
+    "contentExtent": 3,
+    "metrics": 1,
+    "evidenceVisibility": 2,
+    "screenshot": 269
+  },
+  "loadedResourceCount": 4,
+  "qualityScore": {
+    "score": 97,
+    "rating": "good",
+    "deductions": [
+      "-3: 1 failed resource(s)"
+    ]
+  }
+}

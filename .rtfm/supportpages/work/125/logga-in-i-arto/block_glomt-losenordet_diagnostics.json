@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-11-09T13:18:45.333Z",
+  "viewport": {
+    "width": 1480,
+    "height": 900,
+    "viewportCrop": true
+  },
+  "metrics": {
+    "width": 1480,
+    "height": 900,
+    "hasChildren": true,
+    "childCount": 1,
+    "visibleElementCount": 15,
+    "hasTextContent": true,
+    "textLength": 211,
+    "backgroundColor": "rgb(240, 240, 241)",
+    "imageCount": 0,
+    "loadedImageCount": 0,
+    "regionGeometry": {
+      "checked": false,
+      "regions": [],
+      "errors": []
+    },
+    "isLikelyBlank": false,
+    "contentHeight": 900,
+    "isClipped": false,
+    "evidenceVisibility": [
+      {
+        "string": "Användarnamn eller e-postadress",
+        "visible": true,
+        "visible_px": 4577,
+        "match_kind": "text"
+      },
+      {
+        "string": "Skaffa nytt lösenord",
+        "visible": true,
+        "visible_px": 4722,
+        "match_kind": "input_value"
+      },
+      {
+        "string": "Ange ditt användarnamn eller din e-postadress. Du kommer att få ett e-postmeddelande med instruktioner om hur du återställer ditt lösenord.",
+        "visible": true,
+        "visible_px": 17082,
+        "match_kind": "text"
+      }
+    ],
+    "watermark": true
+  },
+  "pageErrors": [],
+  "failedResources": [
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "resourceType": "script",
+      "reason": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "blockedExternalResources": [
+    "https://cdn.tailwindcss.com/"
+  ],
+  "stageTimings": {
+    "newPage": 86,
+    "setViewport": 2,
+    "goto": 1017,
+    "addStyleTag": 12,
+    "contentExtent": 3,
+    "metrics": 1,
+    "evidenceVisibility": 2,
+    "screenshot": 260
+  },
+  "loadedResourceCount": 3,
+  "qualityScore": {
+    "score": 97,
+    "rating": "good",
+    "deductions": [
+      "-3: 1 failed resource(s)"
+    ]
+  }
+}

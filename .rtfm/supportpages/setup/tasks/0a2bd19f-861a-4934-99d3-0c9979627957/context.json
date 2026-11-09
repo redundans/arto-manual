@@ -1,0 +1,245 @@
+{
+  "article_sync": true,
+  "walkthrough_sync": true,
+  "article_capacity": {
+    "used": 1,
+    "limit": null,
+    "can_create": true,
+    "upgrade_url": "https://app.supportpages.io/billing",
+    "manage_articles_url": "https://app.supportpages.io/projects"
+  },
+  "progressive_articles": true,
+  "repository_connection": {
+    "writer": {
+      "version": 1,
+      "actions": {
+        "read_articles": {
+          "action": "read_articles",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read"
+          ],
+          "next_step": null
+        },
+        "create_article": {
+          "action": "create_article",
+          "allowed": true,
+          "execution": "local",
+          "required_scopes": [
+            "read",
+            "import"
+          ],
+          "next_step": null
+        },
+        "update_article": {
+          "action": "update_article",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "manage"
+          ],
+          "next_step": null
+        },
+        "edit_article": {
+          "action": "edit_article",
+          "allowed": true,
+          "execution": "local",
+          "required_scopes": [
+            "read",
+            "manage"
+          ],
+          "next_step": null
+        },
+        "publish_article": {
+          "action": "publish_article",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "publish"
+          ],
+          "next_step": null
+        },
+        "unpublish_article": {
+          "action": "unpublish_article",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "publish"
+          ],
+          "next_step": null
+        },
+        "delete_article": {
+          "action": "delete_article",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "manage"
+          ],
+          "next_step": null
+        },
+        "find_article_gaps": {
+          "action": "find_article_gaps",
+          "allowed": false,
+          "execution": "hosted",
+          "required_scopes": [
+            "read",
+            "generate"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "find_article_gaps",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "suggest_sections": {
+          "action": "suggest_sections",
+          "allowed": false,
+          "execution": "hosted",
+          "required_scopes": [
+            "read",
+            "generate"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "suggest_sections",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "recommend_articles": {
+          "action": "recommend_articles",
+          "allowed": false,
+          "execution": "hosted",
+          "required_scopes": [
+            "read",
+            "generate"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "recommend_articles",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "review_sections": {
+          "action": "review_sections",
+          "allowed": false,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "manage"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "review_sections",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "review_recommendations": {
+          "action": "review_recommendations",
+          "allowed": false,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "manage"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "review_recommendations",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "create_video_walkthrough": {
+          "action": "create_video_walkthrough",
+          "allowed": false,
+          "execution": "hosted",
+          "required_scopes": [
+            "read",
+            "generate"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "create_video_walkthrough",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "get_operation": {
+          "action": "get_operation",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read"
+          ],
+          "next_step": null
+        },
+        "generate_help_centre": {
+          "action": "generate_help_centre",
+          "allowed": false,
+          "execution": "hosted",
+          "required_scopes": [
+            "read",
+            "generate"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "generate_help_centre",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        }
+      }
+    },
+    "state": "not_connected",
+    "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion",
+    "capabilities": {
+      "sections": false,
+      "suggestions": false,
+      "code_analysis": false,
+      "maintenance": false
+    }
+  },
+  "project": {
+    "id": "125",
+    "name": "Arto Manual",
+    "help_centre_url": "https://arto.supportpages.io"
+  },
+  "supported_bundle_versions": [
+    1
+  ],
+  "sections": [],
+  "articles": [
+    {
+      "id": "1349",
+      "title": "Logga in i Arto",
+      "section_id": null
+    }
+  ],
+  "product_context": {
+    "target_audience": "end_users",
+    "industry": "saas",
+    "project_type": [
+      "web"
+    ],
+    "documentation_goals": [
+      "support",
+      "onboarding",
+      "features"
+    ],
+    "tone_preference": "formal",
+    "product_stage": "mature"
+  },
+  "inventory_truncated": false,
+  "project_overview": null,
+  "analysis_summary": null,
+  "writing_style": "Voice: neutral and authoritative. Suitable for compliance or regulated contexts.\nVocabulary: complete, proper terms. No slang, no casual asides, no contractions (\"do not\", not \"don't\").\nSentence structure: complete, well-formed sentences — but concise; formal does not mean verbose.\nPoint of view: address the reader as \"you\" or use neutral phrasing (\"Users may…\"); maintain a professional distance.\nDo: \"Select **Save** to apply your changes.\" / \"Ensure the certificate is valid before proceeding.\"\nDon't: \"Just hit save and you're good to go.\" / emoji, slang, or jokey asides.\n\nAudience — end users/customers: assume no technical background. Avoid jargon entirely or define it in plain terms. Focus on the task they want to complete, not the mechanism behind it.\n\nMaturity — mature/enterprise: thorough and dependable in tone. Readers expect stability, completeness, and precision.",
+  "project_name": "Arto Manual"
+}

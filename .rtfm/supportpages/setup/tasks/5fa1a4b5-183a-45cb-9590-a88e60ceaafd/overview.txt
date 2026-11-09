@@ -1,0 +1,1 @@
+Arto är en plattform där redaktioner skriver, publicerar och hanterar sina nyhetssajter, artiklar, bilder, nyhetsbrev och prenumerationsinnehåll på ett ställe. Redaktörer och administratörer loggar in i administrationsgränssnittet för att redigera innehåll och styra hur varje publikation ser ut och fungerar.

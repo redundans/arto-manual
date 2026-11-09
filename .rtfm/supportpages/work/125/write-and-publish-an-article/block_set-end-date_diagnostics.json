@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-11-09T13:50:26.604Z",
+  "viewport": {
+    "width": 1480,
+    "height": 900,
+    "viewportCrop": true
+  },
+  "metrics": {
+    "width": 1480,
+    "height": 900,
+    "hasChildren": true,
+    "childCount": 2,
+    "visibleElementCount": 18,
+    "hasTextContent": true,
+    "textLength": 87,
+    "backgroundColor": "rgb(240, 240, 241)",
+    "imageCount": 0,
+    "loadedImageCount": 0,
+    "regionGeometry": {
+      "checked": false,
+      "regions": [],
+      "errors": []
+    },
+    "isLikelyBlank": false,
+    "contentHeight": 900,
+    "isClipped": false,
+    "evidenceVisibility": [
+      {
+        "string": "End date",
+        "visible": true,
+        "visible_px": 974,
+        "match_kind": "text"
+      },
+      {
+        "string": "Set end date",
+        "visible": true,
+        "visible_px": 2679,
+        "match_kind": "text"
+      },
+      {
+        "string": "Mark as complete",
+        "visible": true,
+        "visible_px": 8975,
+        "match_kind": "text"
+      },
+      {
+        "string": "Uppdatera",
+        "visible": true,
+        "visible_px": 3406,
+        "match_kind": "text"
+      }
+    ],
+    "watermark": true
+  },
+  "pageErrors": [],
+  "failedResources": [
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "resourceType": "script",
+      "reason": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "blockedExternalResources": [
+    "https://cdn.tailwindcss.com/"
+  ],
+  "stageTimings": {
+    "newPage": 35,
+    "setViewport": 2,
+    "goto": 966,
+    "addStyleTag": 8,
+    "contentExtent": 3,
+    "metrics": 1,
+    "evidenceVisibility": 2,
+    "screenshot": 255
+  },
+  "loadedResourceCount": 3,
+  "qualityScore": {
+    "score": 97,
+    "rating": "good",
+    "deductions": [
+      "-3: 1 failed resource(s)"
+    ]
+  }
+}

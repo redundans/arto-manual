@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "generated_at": "2026-11-09T13:50:08.538Z",
+  "article_dir": "/Users/jespernilsson/Development/arto-manual/.rtfm/supportpages/work/125/write-and-publish-an-article",
+  "project_root": "/Users/jespernilsson/Development/arto-manual",
+  "app_type": "web",
+  "inputs": {
+    "view_sources": true,
+    "lint_report": true,
+    "project_map": true,
+    "app_shell": false
+  },
+  "budget": {
+    "max_edits": 6,
+    "max_blocks": 0
+  },
+  "blocks": [
+    {
+      "block_id": "share-preview",
+      "index": 1,
+      "key": "share-preview",
+      "html": "block_share-preview.html",
+      "html_raw": "block_share-preview.html.pre",
+      "png": "block_share-preview.png",
+      "sha256": {
+        "html": "b5da370370e4a24b13055acf2f25b5ae2be4652672e294ddd73a4e4298cb7c36",
+        "html_raw": "1c7bc304c7213cfe71c2218f8a7422560f642ea6c6dec999235aaaaf3a33b8c6",
+        "png": "ba6775679213db87469d658b57c695eccc4d18dd2cf9a29e0444fca7cf45d449"
+      },
+      "url_or_route": null,
+      "depicted_state": "Draft post settings panel with Genast and the unchecked Enable public preview check box visible before selection",
+      "sources": {
+        "primary_view": "../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js",
+        "layout": null,
+        "chrome_files": [],
+        "partials_expanded": [],
+        "read_order": [
+          "../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js"
+        ]
+      },
+      "shell": null,
+      "action_targets": [
+        {
+          "target": "Enable public preview",
+          "kind": "toggle"
+        },
+        {
+          "target": "Genast",
+          "kind": "click"
+        }
+      ],
+      "before": {
+        "metrics": {
+          "shell_nav_labels": null,
+          "chrome_files_expanded": null,
+          "runtime_ui_strings": null,
+          "runtime_regions_rendered": null,
+          "root_classes_html": null,
+          "layout_root_classes": null,
+          "verbatim_evidence_source": {
+            "hits": 4,
+            "total": 4,
+            "ratio": 1
+          },
+          "verbatim_evidence_html": {
+            "hits": 4,
+            "total": 4,
+            "ratio": 1
+          },
+          "partials_present": null,
+          "body_class_tokens": null,
+          "styled_coverage": {
+            "hits": 0,
+            "total": 1,
+            "ratio": 0
+          },
+          "inline_classes_verified": null,
+          "invented_colours": {
+            "count": 0
+          },
+          "invented_copy": {
+            "count": 2
+          },
+          "screen_closure": null
+        },
+        "chrome": null,
+        "render_score": 97,
+        "render_rating": "good",
+        "deductions": [
+          "-3: 1 failed resource(s)"
+        ],
+        "errors": [],
+        "warnings": [
+          "2 multi-word phrase(s) in step_4.html do not appear in any listed source file or locale: \"rhandsgranska Publicera Kommunen satsar\", \"nya cykelbanor Lead Flera nya cykelbanor ska byggas under\""
+        ]
+      },
+      "questions": [
+        {
+          "id": "share-preview#1",
+          "kind": "invented_copy",
+          "severity": "advisory",
+          "source": "lint_report.json metrics.invented_copy",
+          "text": "2 multi-word phrase(s) in the mockup exist in no listed source file (\"rhandsgranska Publicera Kommunen satsar\", \"nya cykelbanor Lead Flera nya cykelbanor ska byggas under\"). Replace each with the real string from the source or locale file — copy is never paraphrased.",
+          "check": {
+            "type": "metric_count_max",
+            "key": "invented_copy",
+            "max": 0
+          }
+        },
+        {
+          "id": "share-preview#2",
+          "kind": "source_component_unrendered",
+          "severity": "advisory",
+          "source": "source files",
+          "text": "These components/partials are rendered by the files this screen is built from, and nothing in the mockup corresponds to them: PluginPreviewMenuItem ← ../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js; VisuallyHidden ← ../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js; PreviewMenuItem ← ../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js; PluginPostStatusInfo ← ../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js; CheckboxControl ← ../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js; TextControl ← ../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js. Open each one: if it draws a region the real screen shows in this state, add that region; if it is conditional or empty for the default user, skip it.",
+          "check": {
+            "type": "html_contains_any",
+            "strings": [
+              "PluginPreviewMenuItem",
+              "VisuallyHidden",
+              "PreviewMenuItem",
+              "PluginPostStatusInfo",
+              "CheckboxControl",
+              "TextControl"
+            ],
+            "min": 1
+          },
+          "components": [
+            {
+              "name": "PluginPreviewMenuItem",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js",
+              "labels": []
+            },
+            {
+              "name": "VisuallyHidden",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js",
+              "labels": []
+            },
+            {
+              "name": "PreviewMenuItem",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js",
+              "labels": []
+            },
+            {
+              "name": "PluginPostStatusInfo",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js",
+              "labels": []
+            },
+            {
+              "name": "CheckboxControl",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js",
+              "labels": []
+            },
+            {
+              "name": "TextControl",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js",
+              "labels": []
+            }
+          ]
+        },
+        {
+          "id": "share-preview#3",
+          "kind": "source_labels_missing",
+          "severity": "advisory",
+          "source": "source files",
+          "text": "4 label(s) from the source files this screen renders do not appear in the mockup: \"Copy the preview URL\", \"Open public preview\", \"(opens in a new tab)\", \"Preview URL\". Many belong to other states or branches — open the PNG and add only the ones the real screen shows in this block's depicted state (headings, column headers, buttons, field labels, placeholders).",
+          "check": {
+            "type": "html_contains_any",
+            "strings": [
+              "Copy the preview URL",
+              "Open public preview",
+              "(opens in a new tab)",
+              "Preview URL"
+            ],
+            "min": 2
+          },
+          "labels": [
+            "Copy the preview URL",
+            "Open public preview",
+            "(opens in a new tab)",
+            "Preview URL"
+          ],
+          "total": 4
+        },
+        {
+          "id": "share-preview#4",
+          "kind": "compare",
+          "severity": "advisory",
+          "source": "PNG + source files",
+          "text": "Open block_share-preview.png, then each file in sources.read_order. List what the real screen shows that the PNG does not — regions, rows and their columns, controls, labels, badges, footers — and add it. If nothing is missing, say so.",
+          "check": {
+            "type": "manual"
+          }
+        }
+      ],
+      "counts": {
+        "questions": 4,
+        "blocking": 0,
+        "advisory": 4
+      },
+      "budget": {
+        "max_edits": 6
+      }
+    },
+    {
+      "block_id": "create-post",
+      "index": 0,
+      "key": "create-post",
+      "html": "block_create-post.html",
+      "html_raw": "block_create-post.html.pre",
+      "png": "block_create-post.png",
+      "sha256": {
+        "html": "dea1d0d16a43f06c763ab995a2fa1be539f33a3b36864e1cefdf5fe11e004bb6",
+        "html_raw": "64ba540b4cd3b319e007344916aca705b31f95cdbb99631e1ae1701b01421e24",
+        "png": "8c5ea83907ebb77c8fc506a713389f39701238e5e7e8b948d8316c2fdb531233"
+      },
+      "url_or_route": null,
+      "depicted_state": "New post editor with the empty headline field, the empty Lead block, and Spara utkast, Förhandsgranska and Publicera all available before selection",
+      "sources": {
+        "primary_view": "../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js",
+        "layout": null,
+        "chrome_files": [],
+        "partials_expanded": [
+          "../hopp-wordpress/web/app/themes/hopp/editor/editor.php"
+        ],
+        "read_order": [
+          "../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js",
+          "../hopp-wordpress/web/app/themes/hopp/editor/editor.php"
+        ]
+      },
+      "shell": null,
+      "action_targets": [
+        {
+          "target": "Lägg till rubrik",
+          "kind": "type"
+        },
+        {
+          "target": "Lead",
+          "kind": "type"
+        },
+        {
+          "target": "Spara utkast",
+          "kind": "click"
+        },
+        {
+          "target": "Förhandsgranska",
+          "kind": "click"
+        },
+        {
+          "target": "Publicera",
+          "kind": "click"
+        }
+      ],
+      "before": {
+        "metrics": {
+          "shell_nav_labels": null,
+          "chrome_files_expanded": null,
+          "runtime_ui_strings": null,
+          "runtime_regions_rendered": null,
+          "root_classes_html": null,
+          "layout_root_classes": null,
+          "verbatim_evidence_source": {
+            "hits": 6,
+            "total": 6,
+            "ratio": 1
+          },
+          "verbatim_evidence_html": {
+            "hits": 6,
+            "total": 6,
+            "ratio": 1
+          },
+          "partials_present": {
+            "hits": 1,
+            "total": 1,
+            "ratio": 1
+          },
+          "body_class_tokens": null,
+          "styled_coverage": {
+            "hits": 0,
+            "total": 1,
+            "ratio": 0
+          },
+          "inline_classes_verified": null,
+          "invented_colours": {
+            "count": 0
+          },
+          "invented_copy": {
+            "count": 0
+          },
+          "screen_closure": null
+        },
+        "chrome": null,
+        "render_score": 97,
+        "render_rating": "good",
+        "deductions": [
+          "-3: 1 failed resource(s)"
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "questions": [
+        {
+          "id": "create-post#1",
+          "kind": "source_component_unrendered",
+          "severity": "advisory",
+          "source": "source files",
+          "text": "These components/partials are rendered by the files this screen is built from, and nothing in the mockup corresponds to them: BlockControls ← ../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js; ToolbarGroup ← ../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js; TextareaControl ← ../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js. Open each one: if it draws a region the real screen shows in this state, add that region; if it is conditional or empty for the default user, skip it.",
+          "check": {
+            "type": "html_contains_any",
+            "strings": [
+              "BlockControls",
+              "ToolbarGroup",
+              "TextareaControl"
+            ],
+            "min": 1
+          },
+          "components": [
+            {
+              "name": "BlockControls",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js",
+              "labels": []
+            },
+            {
+              "name": "ToolbarGroup",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js",
+              "labels": []
+            },
+            {
+              "name": "TextareaControl",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js",
+              "labels": []
+            }
+          ]
+        },
+        {
+          "id": "create-post#2",
+          "kind": "source_labels_missing",
+          "severity": "advisory",
+          "source": "source files",
+          "text": "1 label(s) from the source files this screen renders do not appear in the mockup: \"Suggest lead\". Many belong to other states or branches — open the PNG and add only the ones the real screen shows in this block's depicted state (headings, column headers, buttons, field labels, placeholders).",
+          "check": {
+            "type": "html_contains_any",
+            "strings": [
+              "Suggest lead"
+            ],
+            "min": 1
+          },
+          "labels": [
+            "Suggest lead"
+          ],
+          "total": 1
+        },
+        {
+          "id": "create-post#3",
+          "kind": "compare",
+          "severity": "advisory",
+          "source": "PNG + source files",
+          "text": "Open block_create-post.png, then each file in sources.read_order. List what the real screen shows that the PNG does not — regions, rows and their columns, controls, labels, badges, footers — and add it. If nothing is missing, say so.",
+          "check": {
+            "type": "manual"
+          }
+        }
+      ],
+      "counts": {
+        "questions": 3,
+        "blocking": 0,
+        "advisory": 3
+      },
+      "budget": {
+        "max_edits": 6
+      }
+    },
+    {
+      "block_id": "set-end-date",
+      "index": 2,
+      "key": "set-end-date",
+      "html": "block_set-end-date.html",
+      "html_raw": "block_set-end-date.html.pre",
+      "png": "block_set-end-date.png",
+      "sha256": {
+        "html": "cd407185558022a2f963bb3ba9fff4d9ef78fc775c5495bdc3660c0b9d1e4231",
+        "html_raw": "38401999740d6f77700656d580aaa05599da9e6da1d067ab17257099de3d6f41",
+        "png": "561ba0201fda3ccfae134f4cbed89de9b888bc0f1a4f0b060807ce4b671ffdfa"
+      },
+      "url_or_route": null,
+      "depicted_state": "Published campaign settings panel with End date, Set end date and Mark as complete visible before selection",
+      "sources": {
+        "primary_view": "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js",
+        "layout": null,
+        "chrome_files": [],
+        "partials_expanded": [
+          "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/complete-button.js"
+        ],
+        "read_order": [
+          "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js",
+          "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/complete-button.js"
+        ]
+      },
+      "shell": null,
+      "action_targets": [
+        {
+          "target": "Set end date",
+          "kind": "click"
+        },
+        {
+          "target": "Mark as complete",
+          "kind": "click"
+        }
+      ],
+      "before": {
+        "metrics": {
+          "shell_nav_labels": null,
+          "chrome_files_expanded": null,
+          "runtime_ui_strings": null,
+          "runtime_regions_rendered": null,
+          "root_classes_html": null,
+          "layout_root_classes": null,
+          "verbatim_evidence_source": {
+            "hits": 4,
+            "total": 4,
+            "ratio": 1
+          },
+          "verbatim_evidence_html": {
+            "hits": 4,
+            "total": 4,
+            "ratio": 1
+          },
+          "partials_present": {
+            "hits": 1,
+            "total": 1,
+            "ratio": 1
+          },
+          "body_class_tokens": null,
+          "styled_coverage": {
+            "hits": 0,
+            "total": 1,
+            "ratio": 0
+          },
+          "inline_classes_verified": null,
+          "invented_colours": {
+            "count": 0
+          },
+          "invented_copy": {
+            "count": 0
+          },
+          "screen_closure": null
+        },
+        "chrome": null,
+        "render_score": 97,
+        "render_rating": "good",
+        "deductions": [
+          "-3: 1 failed resource(s)"
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "questions": [
+        {
+          "id": "set-end-date#1",
+          "kind": "source_component_unrendered",
+          "severity": "advisory",
+          "source": "source files",
+          "text": "These components/partials are rendered by the files this screen is built from, and nothing in the mockup corresponds to them: PluginPostStatusInfo ← ../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js; HStack ← ../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js; Dropdown ← ../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js; DateTimePicker ← ../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js. Open each one: if it draws a region the real screen shows in this state, add that region; if it is conditional or empty for the default user, skip it.",
+          "check": {
+            "type": "html_contains_any",
+            "strings": [
+              "PluginPostStatusInfo",
+              "HStack",
+              "Dropdown",
+              "DateTimePicker"
+            ],
+            "min": 1
+          },
+          "components": [
+            {
+              "name": "PluginPostStatusInfo",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js",
+              "labels": []
+            },
+            {
+              "name": "HStack",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js",
+              "labels": []
+            },
+            {
+              "name": "Dropdown",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js",
+              "labels": []
+            },
+            {
+              "name": "DateTimePicker",
+              "file": null,
+              "rendered_by": "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js",
+              "labels": []
+            }
+          ]
+        },
+        {
+          "id": "set-end-date#2",
+          "kind": "compare",
+          "severity": "advisory",
+          "source": "PNG + source files",
+          "text": "Open block_set-end-date.png, then each file in sources.read_order. List what the real screen shows that the PNG does not — regions, rows and their columns, controls, labels, badges, footers — and add it. If nothing is missing, say so.",
+          "check": {
+            "type": "manual"
+          }
+        }
+      ],
+      "counts": {
+        "questions": 2,
+        "blocking": 0,
+        "advisory": 2
+      },
+      "budget": {
+        "max_edits": 6
+      }
+    }
+  ],
+  "skipped": [],
+  "totals": {
+    "blocks_ticketed": 3,
+    "questions": 9,
+    "blocking": 0
+  }
+}

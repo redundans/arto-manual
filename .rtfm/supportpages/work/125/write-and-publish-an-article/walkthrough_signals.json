@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "article_type": "how-to",
+  "sections_total": 10,
+  "sections_with_images": 3,
+  "distinct_surfaces": 3,
+  "action_count": 9,
+  "action_kinds": [
+    "click",
+    "toggle",
+    "type"
+  ],
+  "typed_input": true,
+  "unsupported_action_kinds": [],
+  "external_surfaces": 0,
+  "app_type": "web"
+}

@@ -1,0 +1,69 @@
+{
+  "all_passed": true,
+  "mode": "fail",
+  "global_errors": [],
+  "global_warnings": [
+    "how-to title should start with \"How to\"",
+    "block \"tvastegsverifiering\" exceeds the 3-sentence guidance",
+    "block \"glomt-losenordet\" exceeds the 3-sentence guidance"
+  ],
+  "blocks": [
+    {
+      "block_id": "introduction",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "block_id": "innan-du-borjar",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "block_id": "oppna-inloggningssidan",
+      "errors": [],
+      "warnings": [
+        "inline code \"/wp-admin/\" appears in none of the resolved source files — invented flag or path?",
+        "inline code \"https://<din-sajt>/wp-admin/\" appears in none of the resolved source files — invented flag or path?"
+      ]
+    },
+    {
+      "block_id": "logga-in",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "block_id": "captcha",
+      "errors": [],
+      "warnings": [
+        "bold UI name \"Logga in\" is not in this block's own sources"
+      ]
+    },
+    {
+      "block_id": "tvastegsverifiering",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "block_id": "glomt-losenordet",
+      "errors": [],
+      "warnings": [
+        "bold UI name \"Glömt ditt lösenord\" is not in this block's own sources"
+      ]
+    },
+    {
+      "block_id": "om-det-inte-fungerar",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "block_id": "summary",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "metrics": {
+    "inline_code_spans": 3,
+    "fenced_blocks": 0,
+    "untagged_fences": 0
+  }
+}

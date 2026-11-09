@@ -1,0 +1,92 @@
+{
+  "schema_version": 5,
+  "framework": "custom",
+  "app_type": "web",
+  "app_type_source": "default",
+  "git_sha": "f316e2c17873442ad6eb5c0852cea3de8b31cd2f",
+  "generated_at": "2026-11-09T13:15:39.424Z",
+  "dir_map": {
+    "routes": "web/wp",
+    "views": "web/wp",
+    "layouts": "web/wp",
+    "controllers": "web/app/themes/hopp/inc"
+  },
+  "layouts": [
+    {
+      "name": "wp-login",
+      "path": "web/wp/wp-login.php",
+      "area": "auth / login / lost password",
+      "chrome": [],
+      "render_chain": [],
+      "render_chain_stats": {
+        "files": 0,
+        "unresolved": 0,
+        "max_depth": 0,
+        "truncated": false
+      }
+    }
+  ],
+  "global_chrome": [],
+  "default_user_assumptions": [
+    "Anonymous visitor on a publication's own address, Swedish locale (sv_SE)"
+  ],
+  "route_index": {
+    "login": {
+      "method": "GET",
+      "path": "/wp-login.php",
+      "controller": "wp-login.php",
+      "layout": "wp-login",
+      "primary_view": "web/wp/wp-login.php",
+      "render_chain": [],
+      "render_chain_stats": {
+        "files": 0,
+        "unresolved": 0,
+        "max_depth": 0,
+        "truncated": false
+      },
+      "partials_expanded": []
+    },
+    "lostpassword": {
+      "method": "GET",
+      "path": "/wp-login.php?action=lostpassword",
+      "controller": "wp-login.php#lostpassword",
+      "layout": "wp-login",
+      "primary_view": "web/wp/wp-login.php",
+      "render_chain": [],
+      "render_chain_stats": {
+        "files": 0,
+        "unresolved": 0,
+        "max_depth": 0,
+        "truncated": false
+      },
+      "partials_expanded": []
+    }
+  },
+  "app_shell": null,
+  "css_build": null,
+  "runtime_surface_coverage": {
+    "ignored": []
+  },
+  "route_chain_resolver": {
+    "version": 1,
+    "generated_at": "2026-11-09T13:15:49.290Z",
+    "max_files": 80,
+    "max_depth": 6
+  },
+  "mockup_model_recommendation": {
+    "schema_version": 1,
+    "policy_version": "heuristic-v1",
+    "tier": "medium",
+    "score": 2,
+    "source": "heuristic",
+    "reasons": [
+      {
+        "code": "custom_or_unknown_web_framework",
+        "weight": 2,
+        "evidence": {
+          "framework": "custom"
+        }
+      }
+    ]
+  }
+}

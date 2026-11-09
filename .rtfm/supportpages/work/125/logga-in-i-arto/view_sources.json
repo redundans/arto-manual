@@ -1,0 +1,101 @@
+{
+  "framework": "wordpress",
+  "action_coverage": [
+    {
+      "article_block_id": "logga-in",
+      "screenshot_block_id": "logga-in",
+      "kind": "type",
+      "target": "Användarnamn eller e-postadress",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "logga-in",
+      "screenshot_block_id": "logga-in",
+      "kind": "type",
+      "target": "Lösenord",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "logga-in",
+      "screenshot_block_id": "logga-in",
+      "kind": "toggle",
+      "target": "Kom ihåg mig",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "logga-in",
+      "screenshot_block_id": "logga-in",
+      "kind": "click",
+      "target": "Logga in",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "glomt-losenordet",
+      "screenshot_block_id": "logga-in",
+      "kind": "click",
+      "target": "Glömt ditt lösenord?",
+      "state": "action-ready"
+    },
+    {
+      "article_block_id": "glomt-losenordet",
+      "screenshot_block_id": "glomt-losenordet",
+      "kind": "click",
+      "target": "Skaffa nytt lösenord",
+      "state": "action-ready"
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "logga-in",
+      "primary_view": "../hopp-wordpress/web/wp/wp-login.php",
+      "partials_expanded": [
+        "../hopp-wordpress/web/app/themes/hopp/inc/clean-admin.php"
+      ],
+      "verbatim_evidence": [
+        {
+          "string": "Användarnamn eller e-postadress",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE.po"
+        },
+        {
+          "string": "Lösenord",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE.po"
+        },
+        {
+          "string": "Kom ihåg mig",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE.po"
+        },
+        {
+          "string": "Logga in",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE.po"
+        },
+        {
+          "string": "Glömt ditt lösenord?",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE.po"
+        }
+      ],
+      "depicted_state": "Login form with username and password filled mid-entry; Kom ihåg mig, Logga in and Glömt ditt lösenord? all visible before activation"
+    },
+    {
+      "block_id": "glomt-losenordet",
+      "primary_view": "../hopp-wordpress/web/wp/wp-login.php",
+      "partials_expanded": [
+        "../hopp-wordpress/web/app/themes/hopp/inc/clean-admin.php"
+      ],
+      "verbatim_evidence": [
+        {
+          "string": "Användarnamn eller e-postadress",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE.po"
+        },
+        {
+          "string": "Skaffa nytt lösenord",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE.po"
+        },
+        {
+          "string": "Ange ditt användarnamn eller din e-postadress. Du kommer att få ett e-postmeddelande med instruktioner om hur du återställer ditt lösenord.",
+          "found_in": "../hopp-wordpress/web/app/languages/sv_SE.po"
+        }
+      ],
+      "depicted_state": "Lost password form with e-mail filled in; Skaffa nytt lösenord visible before selection"
+    }
+  ]
+}

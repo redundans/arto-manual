@@ -1,0 +1,83 @@
+{
+  "schema_version": 2,
+  "title": "Logga in i Arto",
+  "article_type": "how-to",
+  "blocks": [
+    {
+      "id": "introduction",
+      "type": "prose",
+      "presentation": "lead",
+      "content": "Här visar vi hur du loggar in i Arto med användarnamn eller e-postadress och lösenord, och vad du gör om något krånglar på vägen."
+    },
+    {
+      "id": "innan-du-borjar",
+      "type": "list",
+      "presentation": "checklist",
+      "title": "Innan du börjar",
+      "items": [
+        "Du har ett konto som en administratör har skapat åt dig.",
+        "Du vet adressen till din publikation. Varje publikation i Arto har sin egen adress, till exempel `https://<din-sajt>/wp-admin/`.",
+        "Om din sajt kräver tvåstegsverifiering har du en autentiseringsapp i mobilen, eller tillgång till din e-post."
+      ]
+    },
+    {
+      "id": "oppna-inloggningssidan",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Öppna inloggningssidan",
+      "content": "Skriv in adressen till din sajt följt av `/wp-admin/` i webbläsaren, till exempel `https://<din-sajt>/wp-admin/`. Du skickas automatiskt vidare till inloggningssidan med Artos logotyp. Sidan är alltid på svenska och har ingen språkväljare.",
+      "has_image": false
+    },
+    {
+      "id": "logga-in",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Fyll i dina uppgifter och logga in",
+      "content": "Skriv ditt användarnamn eller din e-postadress i fältet **Användarnamn eller e-postadress** och ditt lösenord i fältet **Lösenord**. Om du inte delar dator med någon annan kan du bocka i **Kom ihåg mig**. Klicka sedan på **Logga in**.",
+      "has_image": true
+    },
+    {
+      "id": "captcha",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Lös captchan om den visas",
+      "content": "På vissa sajter visas en captcha (Private Captcha) i inloggningsformuläret. Markören hamnar inte i något fält av sig själv, eftersom det skulle störa captchan. Klicka i captcha-rutan och vänta tills den är klar innan du klickar på **Logga in**.",
+      "has_image": false
+    },
+    {
+      "id": "tvastegsverifiering",
+      "type": "section",
+      "presentation": "plain",
+      "title": "Tvåstegsverifiering",
+      "content": "Har du slagit på tvåstegsverifiering får du efter lösenordet ange en extra kod. Koden kommer från en autentiseringsapp, från ett e-postmeddelande eller från dina reservkoder. På sajter som kräver tvåstegsverifiering av administratörer, till exempel Arbetet, måste du som administratör slå på det själv. Tills du har gjort det skickas du till din profilsida, ser ett rött meddelande och har begränsad åtkomst.",
+      "has_image": false
+    },
+    {
+      "id": "glomt-losenordet",
+      "type": "section",
+      "presentation": "plain",
+      "title": "Glömt lösenordet",
+      "content": "Klicka på **Glömt ditt lösenord?** under inloggningsformuläret, skriv in ditt användarnamn eller din e-postadress och klicka på **Skaffa nytt lösenord**. Du får ett e-postmeddelande med en länk där du väljer ett nytt lösenord. Nya användare får inget välkomstmejl: en administratör lägger till dig, och du väljer sedan ditt första lösenord på samma sätt.",
+      "has_image": true
+    },
+    {
+      "id": "om-det-inte-fungerar",
+      "type": "list",
+      "presentation": "bullets",
+      "title": "Om det inte fungerar",
+      "items": [
+        "Du får vänta en stund om du har försökt logga in många gånger. Servern tillåter ungefär fem försök per minut från samma IP-adress, så vänta en minut och försök igen.",
+        "Skickas du hela tiden tillbaka till inloggningssidan, gå direkt till `https://<din-sajt>/wp-admin/` i webbläsaren.",
+        "Får du inget e-postmeddelande när du har bett om nytt lösenord, kontrollera skräpposten och att du skrev rätt e-postadress.",
+        "Hjälper inget av detta, kontakta Oktavilla."
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "prose",
+      "presentation": "summary",
+      "title": "Sammanfattning",
+      "content": "Gå till din sajts adress följt av `/wp-admin/`, fyll i uppgifterna och lös captchan om den visas. Har du glömt lösenordet väljer du ett nytt via länken på inloggningssidan."
+    }
+  ]
+}

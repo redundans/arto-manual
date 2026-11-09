@@ -1,0 +1,7 @@
+{
+  "framework": "custom",
+  "root_css": "--yarl__portal_zindex: 99999;",
+  "sources": [
+    "web/app/plugins/mediebank/src/main.scss"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "framework": "custom",
+  "root_css": "--yarl__portal_zindex: 99999;",
+  "sources": [
+    "web/app/plugins/mediebank/src/main.scss"
+  ],
+  "compiled_css_path": "branding.css",
+  "compilation_method": "prebuilt",
+  "compiled_css_bytes": 103182,
+  "generated_at": "2026-11-09T13:15:39Z"
+}

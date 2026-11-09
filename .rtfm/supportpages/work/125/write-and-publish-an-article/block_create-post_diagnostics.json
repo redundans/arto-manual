@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-11-09T13:50:25.320Z",
+  "viewport": {
+    "width": 1480,
+    "height": 900,
+    "viewportCrop": true
+  },
+  "metrics": {
+    "width": 1480,
+    "height": 900,
+    "hasChildren": true,
+    "childCount": 2,
+    "visibleElementCount": 14,
+    "hasTextContent": true,
+    "textLength": 84,
+    "backgroundColor": "rgb(240, 240, 241)",
+    "imageCount": 0,
+    "loadedImageCount": 0,
+    "regionGeometry": {
+      "checked": false,
+      "regions": [],
+      "errors": []
+    },
+    "isLikelyBlank": false,
+    "contentHeight": 900,
+    "isClipped": false,
+    "evidenceVisibility": [
+      {
+        "string": "Lägg till rubrik",
+        "visible": true,
+        "visible_px": 36860,
+        "match_kind": "text"
+      },
+      {
+        "string": "Spara utkast",
+        "visible": true,
+        "visible_px": 3839,
+        "match_kind": "text"
+      },
+      {
+        "string": "Förhandsgranska",
+        "visible": true,
+        "visible_px": 5667,
+        "match_kind": "text"
+      },
+      {
+        "string": "Publicera",
+        "visible": true,
+        "visible_px": 3129,
+        "match_kind": "text"
+      },
+      {
+        "string": "Lead",
+        "visible": true,
+        "visible_px": 11167,
+        "match_kind": "text"
+      },
+      {
+        "string": "Write your lead here...",
+        "visible": true,
+        "visible_px": 36840,
+        "match_kind": "text"
+      }
+    ],
+    "watermark": true
+  },
+  "pageErrors": [],
+  "failedResources": [
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "resourceType": "script",
+      "reason": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "blockedExternalResources": [
+    "https://cdn.tailwindcss.com/"
+  ],
+  "stageTimings": {
+    "newPage": 109,
+    "setViewport": 3,
+    "goto": 1032,
+    "addStyleTag": 26,
+    "contentExtent": 7,
+    "metrics": 2,
+    "evidenceVisibility": 5,
+    "screenshot": 267
+  },
+  "loadedResourceCount": 3,
+  "qualityScore": {
+    "score": 97,
+    "rating": "good",
+    "deductions": [
+      "-3: 1 failed resource(s)"
+    ]
+  }
+}

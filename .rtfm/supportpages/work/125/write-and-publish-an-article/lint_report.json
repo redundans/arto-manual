@@ -1,0 +1,154 @@
+{
+  "framework": "wordpress",
+  "project_dir": ".",
+  "global_errors": [],
+  "global_warnings": [
+    "article step(s) 7 are text-only: the 3-screenshot limit is reached. Name each control in bold and say where it is."
+  ],
+  "all_passed": true,
+  "metrics": {
+    "action_coverage": {
+      "hits": 7,
+      "total": 8,
+      "ratio": 0.875
+    },
+    "runtime_states_selected": null,
+    "undefined_css_vars": {
+      "count": 0
+    },
+    "errors_total": 0,
+    "warnings_total": 2
+  },
+  "blocks": [
+    {
+      "index": 0,
+      "primary_view": "../hopp-wordpress/web/app/themes/hopp/editor/blocks/lead/src/index.js",
+      "errors": [],
+      "warnings": [],
+      "metrics": {
+        "shell_nav_labels": null,
+        "chrome_files_expanded": null,
+        "runtime_ui_strings": null,
+        "runtime_regions_rendered": null,
+        "root_classes_html": null,
+        "layout_root_classes": null,
+        "verbatim_evidence_source": {
+          "hits": 6,
+          "total": 6,
+          "ratio": 1
+        },
+        "verbatim_evidence_html": {
+          "hits": 6,
+          "total": 6,
+          "ratio": 1
+        },
+        "partials_present": {
+          "hits": 1,
+          "total": 1,
+          "ratio": 1
+        },
+        "body_class_tokens": null,
+        "styled_coverage": {
+          "hits": 0,
+          "total": 1,
+          "ratio": 0
+        },
+        "inline_classes_verified": null,
+        "invented_colours": {
+          "count": 0
+        },
+        "invented_copy": {
+          "count": 0
+        },
+        "screen_closure": null
+      },
+      "block_id": "create-post"
+    },
+    {
+      "index": 4,
+      "primary_view": "../hopp-wordpress/web/app/plugins/public-post-preview/js/src/components/preview-toggle/index.js",
+      "errors": [],
+      "warnings": [
+        "2 multi-word phrase(s) in step_4.html do not appear in any listed source file or locale: \"rhandsgranska Publicera Kommunen satsar\", \"nya cykelbanor Lead Flera nya cykelbanor ska byggas under\""
+      ],
+      "metrics": {
+        "shell_nav_labels": null,
+        "chrome_files_expanded": null,
+        "runtime_ui_strings": null,
+        "runtime_regions_rendered": null,
+        "root_classes_html": null,
+        "layout_root_classes": null,
+        "verbatim_evidence_source": {
+          "hits": 4,
+          "total": 4,
+          "ratio": 1
+        },
+        "verbatim_evidence_html": {
+          "hits": 4,
+          "total": 4,
+          "ratio": 1
+        },
+        "partials_present": null,
+        "body_class_tokens": null,
+        "styled_coverage": {
+          "hits": 0,
+          "total": 1,
+          "ratio": 0
+        },
+        "inline_classes_verified": null,
+        "invented_colours": {
+          "count": 0
+        },
+        "invented_copy": {
+          "count": 2
+        },
+        "screen_closure": null
+      },
+      "block_id": "share-preview"
+    },
+    {
+      "index": 8,
+      "primary_view": "../hopp-wordpress/web/app/themes/hopp/editor/plugins/post-expirator/src/date-picker.js",
+      "errors": [],
+      "warnings": [],
+      "metrics": {
+        "shell_nav_labels": null,
+        "chrome_files_expanded": null,
+        "runtime_ui_strings": null,
+        "runtime_regions_rendered": null,
+        "root_classes_html": null,
+        "layout_root_classes": null,
+        "verbatim_evidence_source": {
+          "hits": 4,
+          "total": 4,
+          "ratio": 1
+        },
+        "verbatim_evidence_html": {
+          "hits": 4,
+          "total": 4,
+          "ratio": 1
+        },
+        "partials_present": {
+          "hits": 1,
+          "total": 1,
+          "ratio": 1
+        },
+        "body_class_tokens": null,
+        "styled_coverage": {
+          "hits": 0,
+          "total": 1,
+          "ratio": 0
+        },
+        "inline_classes_verified": null,
+        "invented_colours": {
+          "count": 0
+        },
+        "invented_copy": {
+          "count": 0
+        },
+        "screen_closure": null
+      },
+      "block_id": "set-end-date"
+    }
+  ]
+}

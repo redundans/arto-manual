@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-11-09T13:50:27.970Z",
+  "viewport": {
+    "width": 1480,
+    "height": 900,
+    "viewportCrop": true
+  },
+  "metrics": {
+    "width": 1480,
+    "height": 900,
+    "hasChildren": true,
+    "childCount": 2,
+    "visibleElementCount": 26,
+    "hasTextContent": true,
+    "textLength": 185,
+    "backgroundColor": "rgb(240, 240, 241)",
+    "imageCount": 0,
+    "loadedImageCount": 0,
+    "regionGeometry": {
+      "checked": false,
+      "regions": [],
+      "errors": []
+    },
+    "isLikelyBlank": false,
+    "contentHeight": 900,
+    "isClipped": false,
+    "evidenceVisibility": [
+      {
+        "string": "Enable public preview",
+        "visible": true,
+        "visible_px": 400,
+        "match_kind": "accessible_control"
+      },
+      {
+        "string": "Genast",
+        "visible": true,
+        "visible_px": 1717,
+        "match_kind": "text"
+      },
+      {
+        "string": "Utkast",
+        "visible": true,
+        "visible_px": 716,
+        "match_kind": "text"
+      },
+      {
+        "string": "Spara utkast",
+        "visible": true,
+        "visible_px": 3839,
+        "match_kind": "text"
+      }
+    ],
+    "watermark": true
+  },
+  "pageErrors": [],
+  "failedResources": [
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "resourceType": "script",
+      "reason": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "blockedExternalResources": [
+    "https://cdn.tailwindcss.com/"
+  ],
+  "stageTimings": {
+    "newPage": 38,
+    "setViewport": 1,
+    "goto": 1011,
+    "addStyleTag": 12,
+    "contentExtent": 3,
+    "metrics": 2,
+    "evidenceVisibility": 3,
+    "screenshot": 286
+  },
+  "loadedResourceCount": 3,
+  "qualityScore": {
+    "score": 97,
+    "rating": "good",
+    "deductions": [
+      "-3: 1 failed resource(s)"
+    ]
+  }
+}

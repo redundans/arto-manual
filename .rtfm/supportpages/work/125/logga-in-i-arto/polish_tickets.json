@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "generated_at": "2026-11-09T13:18:36.468Z",
+  "article_dir": "/Users/jespernilsson/Development/arto-manual/.rtfm/supportpages/work/125/logga-in-i-arto",
+  "project_root": "/Users/jespernilsson/Development/arto-manual",
+  "app_type": "web",
+  "inputs": {
+    "view_sources": true,
+    "lint_report": true,
+    "project_map": true,
+    "app_shell": false
+  },
+  "budget": {
+    "max_edits": 6,
+    "max_blocks": 0
+  },
+  "blocks": [
+    {
+      "block_id": "glomt-losenordet",
+      "index": 1,
+      "key": "glomt-losenordet",
+      "html": "block_glomt-losenordet.html",
+      "html_raw": "block_glomt-losenordet.html.pre",
+      "png": "block_glomt-losenordet.png",
+      "sha256": {
+        "html": "d911521ec9c7317c9516ea69c7c8cad4bec4847bde34a440db01d918125ad123",
+        "html_raw": "5cd6e827489c7b40706cf1b1a08d2bd8a650bab08adaed00c374e86d985307f4",
+        "png": "da38d64fe3c04b0098d9ed560920e9f6bc70be9a8eb4dba0aea18c1649510305"
+      },
+      "url_or_route": null,
+      "depicted_state": "Lost password form with e-mail filled in; Skaffa nytt lösenord visible before selection",
+      "sources": {
+        "primary_view": "../hopp-wordpress/web/wp/wp-login.php",
+        "layout": null,
+        "chrome_files": [],
+        "partials_expanded": [
+          "../hopp-wordpress/web/app/themes/hopp/inc/clean-admin.php"
+        ],
+        "read_order": [
+          "../hopp-wordpress/web/wp/wp-login.php",
+          "../hopp-wordpress/web/app/themes/hopp/inc/clean-admin.php"
+        ]
+      },
+      "shell": null,
+      "action_targets": [
+        {
+          "target": "Skaffa nytt lösenord",
+          "kind": "click"
+        }
+      ],
+      "before": {
+        "metrics": {
+          "shell_nav_labels": null,
+          "chrome_files_expanded": null,
+          "runtime_ui_strings": null,
+          "runtime_regions_rendered": null,
+          "root_classes_html": null,
+          "layout_root_classes": null,
+          "verbatim_evidence_source": {
+            "hits": 3,
+            "total": 3,
+            "ratio": 1
+          },
+          "verbatim_evidence_html": {
+            "hits": 3,
+            "total": 3,
+            "ratio": 1
+          },
+          "partials_present": {
+            "hits": 1,
+            "total": 1,
+            "ratio": 1
+          },
+          "body_class_tokens": null,
+          "styled_coverage": {
+            "hits": 13,
+            "total": 20,
+            "ratio": 0.65
+          },
+          "inline_classes_verified": null,
+          "invented_colours": {
+            "count": 0
+          },
+          "invented_copy": {
+            "count": 2
+          },
+          "screen_closure": null
+        },
+        "chrome": null,
+        "render_score": 97,
+        "render_rating": "good",
+        "deductions": [
+          "-3: 1 failed resource(s)"
+        ],
+        "errors": [],
+        "warnings": [
+          "2 multi-word phrase(s) in step_4.html do not appear in any listed source file or locale: \"senord Ange ditt anv\", \"postmeddelande med instruktioner om hur du\""
+        ]
+      },
+      "questions": [
+        {
+          "id": "glomt-losenordet#1",
+          "kind": "invented_copy",
+          "severity": "advisory",
+          "source": "lint_report.json metrics.invented_copy",
+          "text": "2 multi-word phrase(s) in the mockup exist in no listed source file (\"senord Ange ditt anv\", \"postmeddelande med instruktioner om hur du\"). Replace each with the real string from the source or locale file — copy is never paraphrased.",
+          "check": {
+            "type": "metric_count_max",
+            "key": "invented_copy",
+            "max": 0
+          }
+        },
+        {
+          "id": "glomt-losenordet#2",
+          "kind": "source_labels_missing",
+          "severity": "advisory",
+          "source": "source files",
+          "text": "32 label(s) from the source files this screen renders do not appear in the mockup (first 12): \"Log In\", \"https://wordpress.org/\", \"Powered by WordPress\", \"Language\", \"Change\", \"Confirm your administration email\", \"Administration email verification\", \"(opens in a new tab)\", \"Update\", \"The email is correct\", \"Remind me later\", \"Lost Password\". Many belong to other states or branches — open the PNG and add only the ones the real screen shows in this block's depicted state (headings, column headers, buttons, field labels, placeholders).",
+          "check": {
+            "type": "html_contains_any",
+            "strings": [
+              "Log In",
+              "https://wordpress.org/",
+              "Powered by WordPress",
+              "Language",
+              "Change",
+              "Confirm your administration email",
+              "Administration email verification",
+              "(opens in a new tab)",
+              "Update",
+              "The email is correct",
+              "Remind me later",
+              "Lost Password"
+            ],
+            "min": 6
+          },
+          "labels": [
+            "Log In",
+            "https://wordpress.org/",
+            "Powered by WordPress",
+            "Language",
+            "Change",
+            "Confirm your administration email",
+            "Administration email verification",
+            "(opens in a new tab)",
+            "Update",
+            "The email is correct",
+            "Remind me later",
+            "Lost Password"
+          ],
+          "total": 32
+        },
+        {
+          "id": "glomt-losenordet#3",
+          "kind": "source_form_fields_missing",
+          "severity": "advisory",
+          "source": "source ../hopp-wordpress/web/wp/wp-login.php",
+          "text": "../hopp-wordpress/web/wp/wp-login.php declares 10 form field(s) and the mockup renders 2 control(s). Absent by name: \"Correct admin email\", \"Pass1\", \"Pw weak\", \"Pass2\", \"User email\", \"Pwd\", \"Rememberme\". Open the PNG and add the fields the real form shows in this state, each with its label, placeholder and control type from the source.",
+          "check": {
+            "type": "html_control_count_min",
+            "min": 5
+          },
+          "fields": [
+            "correct-admin-email",
+            "pass1",
+            "pw_weak",
+            "pass2",
+            "user_email",
+            "pwd",
+            "rememberme"
+          ]
+        },
+        {
+          "id": "glomt-losenordet#4",
+          "kind": "compare",
+          "severity": "advisory",
+          "source": "PNG + source files",
+          "text": "Open block_glomt-losenordet.png, then each file in sources.read_order. List what the real screen shows that the PNG does not — regions, rows and their columns, controls, labels, badges, footers — and add it. If nothing is missing, say so.",
+          "check": {
+            "type": "manual"
+          }
+        }
+      ],
+      "counts": {
+        "questions": 4,
+        "blocking": 0,
+        "advisory": 4
+      },
+      "budget": {
+        "max_edits": 6
+      }
+    },
+    {
+      "block_id": "logga-in",
+      "index": 0,
+      "key": "logga-in",
+      "html": "block_logga-in.html",
+      "html_raw": "block_logga-in.html.pre",
+      "png": "block_logga-in.png",
+      "sha256": {
+        "html": "d23d3b1172035032581b5861e7816200c09a3843e1d75b3c6c3771165d1335e8",
+        "html_raw": "f8493b2c38b86321bd6998805e313e48718146115b7ebabb67d86cb1055bb898",
+        "png": "bbcb3796d382dc7e8f1a887349bd705cfd23c95a92fc2bb4c4f7db74dd550b14"
+      },
+      "url_or_route": null,
+      "depicted_state": "Login form with username and password filled mid-entry; Kom ihåg mig, Logga in and Glömt ditt lösenord? all visible before activation",
+      "sources": {
+        "primary_view": "../hopp-wordpress/web/wp/wp-login.php",
+        "layout": null,
+        "chrome_files": [],
+        "partials_expanded": [
+          "../hopp-wordpress/web/app/themes/hopp/inc/clean-admin.php"
+        ],
+        "read_order": [
+          "../hopp-wordpress/web/wp/wp-login.php",
+          "../hopp-wordpress/web/app/themes/hopp/inc/clean-admin.php"
+        ]
+      },
+      "shell": null,
+      "action_targets": [
+        {
+          "target": "Användarnamn eller e-postadress",
+          "kind": "type"
+        },
+        {
+          "target": "Lösenord",
+          "kind": "type"
+        },
+        {
+          "target": "Kom ihåg mig",
+          "kind": "toggle"
+        },
+        {
+          "target": "Logga in",
+          "kind": "click"
+        },
+        {
+          "target": "Glömt ditt lösenord?",
+          "kind": "click"
+        }
+      ],
+      "before": {
+        "metrics": {
+          "shell_nav_labels": null,
+          "chrome_files_expanded": null,
+          "runtime_ui_strings": null,
+          "runtime_regions_rendered": null,
+          "root_classes_html": null,
+          "layout_root_classes": null,
+          "verbatim_evidence_source": {
+            "hits": 5,
+            "total": 5,
+            "ratio": 1
+          },
+          "verbatim_evidence_html": {
+            "hits": 5,
+            "total": 5,
+            "ratio": 1
+          },
+          "partials_present": {
+            "hits": 1,
+            "total": 1,
+            "ratio": 1
+          },
+          "body_class_tokens": null,
+          "styled_coverage": {
+            "hits": 19,
+            "total": 28,
+            "ratio": 0.679
+          },
+          "inline_classes_verified": null,
+          "invented_colours": {
+            "count": 0
+          },
+          "invented_copy": {
+            "count": 0
+          },
+          "screen_closure": null
+        },
+        "chrome": null,
+        "render_score": 97,
+        "render_rating": "good",
+        "deductions": [
+          "-3: 1 failed resource(s)"
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "questions": [
+        {
+          "id": "logga-in#1",
+          "kind": "source_labels_missing",
+          "severity": "advisory",
+          "source": "source files",
+          "text": "32 label(s) from the source files this screen renders do not appear in the mockup (first 12): \"Log In\", \"https://wordpress.org/\", \"Powered by WordPress\", \"Language\", \"Change\", \"Confirm your administration email\", \"Administration email verification\", \"(opens in a new tab)\", \"Update\", \"The email is correct\", \"Remind me later\", \"Lost Password\". Many belong to other states or branches — open the PNG and add only the ones the real screen shows in this block's depicted state (headings, column headers, buttons, field labels, placeholders).",
+          "check": {
+            "type": "html_contains_any",
+            "strings": [
+              "Log In",
+              "https://wordpress.org/",
+              "Powered by WordPress",
+              "Language",
+              "Change",
+              "Confirm your administration email",
+              "Administration email verification",
+              "(opens in a new tab)",
+              "Update",
+              "The email is correct",
+              "Remind me later",
+              "Lost Password"
+            ],
+            "min": 6
+          },
+          "labels": [
+            "Log In",
+            "https://wordpress.org/",
+            "Powered by WordPress",
+            "Language",
+            "Change",
+            "Confirm your administration email",
+            "Administration email verification",
+            "(opens in a new tab)",
+            "Update",
+            "The email is correct",
+            "Remind me later",
+            "Lost Password"
+          ],
+          "total": 32
+        },
+        {
+          "id": "logga-in#2",
+          "kind": "source_form_fields_missing",
+          "severity": "advisory",
+          "source": "source ../hopp-wordpress/web/wp/wp-login.php",
+          "text": "../hopp-wordpress/web/wp/wp-login.php declares 10 form field(s) and the mockup renders 4 control(s). Absent by name: \"Correct admin email\", \"Pass1\", \"Pw weak\", \"Pass2\", \"User email\". Open the PNG and add the fields the real form shows in this state, each with its label, placeholder and control type from the source.",
+          "check": {
+            "type": "html_control_count_min",
+            "min": 5
+          },
+          "fields": [
+            "correct-admin-email",
+            "pass1",
+            "pw_weak",
+            "pass2",
+            "user_email"
+          ]
+        },
+        {
+          "id": "logga-in#3",
+          "kind": "compare",
+          "severity": "advisory",
+          "source": "PNG + source files",
+          "text": "Open block_logga-in.png, then each file in sources.read_order. List what the real screen shows that the PNG does not — regions, rows and their columns, controls, labels, badges, footers — and add it. If nothing is missing, say so.",
+          "check": {
+            "type": "manual"
+          }
+        }
+      ],
+      "counts": {
+        "questions": 3,
+        "blocking": 0,
+        "advisory": 3
+      },
+      "budget": {
+        "max_edits": 6
+      }
+    }
+  ],
+  "skipped": [],
+  "totals": {
+    "blocks_ticketed": 2,
+    "questions": 7,
+    "blocking": 0
+  }
+}

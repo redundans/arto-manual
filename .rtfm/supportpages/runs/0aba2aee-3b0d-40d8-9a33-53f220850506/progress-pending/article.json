@@ -1,0 +1,142 @@
+{
+  "schema_version": 2,
+  "title": "Write and publish an article",
+  "article_type": "how-to",
+  "blocks": [
+    {
+      "id": "introduction",
+      "type": "prose",
+      "presentation": "lead",
+      "content": "This guide explains how to write an article in the Arto editor, save it as a draft, share a preview, and publish it now or at a later time. It also explains the two features that are available only for some content types: duplicating and setting an end date."
+    },
+    {
+      "id": "prerequisites",
+      "type": "list",
+      "presentation": "checklist",
+      "title": "Before you begin",
+      "items": [
+        "You can sign in to the administration area of your publication.",
+        "Your user account is allowed to create and publish content.",
+        "The Arto editor shows most of the standard editor labels in Swedish. The Arto blocks and the Public Post Preview options are shown in English, as described below."
+      ]
+    },
+    {
+      "id": "create-post",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Create a new post",
+      "content": "In the left-hand menu, open your main content type, for example **Inlägg** (Posts), and select the button to add a new item. The editor opens with a **Lead** block and a paragraph block already in place. Enter the headline in the field labelled **Lägg till rubrik** (Add title).",
+      "has_image": true
+    },
+    {
+      "id": "write-content",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Write the content",
+      "content": "Write the lead text in the **Lead** block, where the placeholder reads Write your lead here..., and write the body text in the paragraph block. To insert another block, select **Lägg till block** (Add block) and choose the block from the list.",
+      "has_image": false
+    },
+    {
+      "id": "arto-blocks",
+      "type": "list",
+      "presentation": "bullets",
+      "title": "Arto blocks you can use",
+      "items": [
+        "**Lead**: the lead text, also called the ingress, at the start of an article.",
+        "**Fact**: a fact box that can contain other blocks. Select **Prevent automatic folding** to keep the box open at all times.",
+        "**Image**: an image with a caption. Select **Change alt text** to describe the image for readers who cannot see it.",
+        "**Article Summary**: a short summary of the article in a few bullet points.",
+        "**Article abstract**: an abstract with a title and content, and an English title and English content. It is offered only for scientific articles.",
+        "**Table**: a table with a heading and a description. Select **Upload Spreadsheet** to fill the table from a spreadsheet file.",
+        "**Teaser**: a link to another article. Search for the article in the search field, or press the space bar to list recent articles.",
+        "**Teaser Group**: a list of teasers under one title.",
+        "**Listicle Heading**: a numbered heading for list articles, with a number field and a heading field.",
+        "**Podcast**: inserts a podcast episode. Under **Podcast Settings** you can select the podcast feed and enter the length, the season number and the episode number. The block is named **Audio** and has no feed settings on publications where podcasts are not enabled.",
+        "**Form**: shows a form. Use **Select Form** to choose which form to show.",
+        "**Map**: shows an area of a world map. Select **Set position** to choose the area, and then **Save position**."
+      ]
+    },
+    {
+      "id": "save-draft",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Save a draft",
+      "content": "Select **Spara utkast** (Save draft) in the top bar of the editor. The post stays unpublished, and you can return to it later from the list of posts under the status **Utkast** (Draft).",
+      "has_image": false
+    },
+    {
+      "id": "preview-post",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Preview the post",
+      "content": "Select **Förhandsgranska** (Preview) in the top bar and then **Förhandsgranska i ny flik** (Preview in new tab). The preview opens in a new browser tab.",
+      "has_image": false
+    },
+    {
+      "id": "share-preview",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Share a preview link",
+      "content": "Save the post as a draft first. In the settings panel on the right, select the check box **Enable public preview** and copy the address shown under it with the copy button. Anyone who has this address can read the unpublished post without signing in.",
+      "has_image": true
+    },
+    {
+      "id": "preview-link-limits",
+      "type": "list",
+      "presentation": "tips",
+      "title": "About preview links",
+      "items": [
+        "A preview link is valid for 48 hours by default. After that, the visitor sees the message This link has expired!",
+        "The link stops working when you publish or trash the post. If the post has been published, the link leads to the published post.",
+        "The check box is not shown for a post that has never been saved or that is already published. If it is missing, the Public Post Preview plugin may not be active on your publication, and you should ask an administrator."
+      ]
+    },
+    {
+      "id": "publish-post",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Publish the post now",
+      "content": "Select **Publicera** (Publish) in the top bar. The editor asks **Är du redo att publicera?** (Are you ready to publish?), and you select **Publicera** (Publish) once more to confirm. After publishing, the same button is named **Uppdatera** (Update), and you use it to save later changes.",
+      "has_image": false
+    },
+    {
+      "id": "schedule-post",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Schedule the post for later",
+      "content": "In the settings panel, select the publication date, which reads **Genast** (Immediately) by default, and choose a future date and time. The main button then changes to **Tidsinställ** (Schedule); select it to confirm. The post receives the status **Schemalagd** (Scheduled) and is published at the chosen time.",
+      "has_image": false
+    },
+    {
+      "id": "duplicate-post",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Duplicate a campaign",
+      "content": "Duplicating is available only for banner ad campaigns, and not for ordinary articles. Open the list of banner ads, move the pointer over a campaign that is published, scheduled or completed, and select **Duplicate**. A new draft opens with the title starting with [Duplicate], and with the same content, summary text, categories and campaign settings as the original.",
+      "has_image": false
+    },
+    {
+      "id": "set-end-date",
+      "type": "section",
+      "presentation": "numbered",
+      "title": "Set an automatic end date",
+      "content": "An end date is available only for banner ads, native ads and listings, and not for ordinary articles. In the settings panel, next to **End date**, select **Set end date**, choose the date and time, and save the post. At that time the post receives the status **Completed**. To cancel the end date, open the picker again and select **Remove**.",
+      "has_image": true
+    },
+    {
+      "id": "mark-complete",
+      "type": "section",
+      "presentation": "plain",
+      "title": "End a campaign at once",
+      "content": "For a published banner ad, native ad or listing, select **Mark as complete** in the settings panel and confirm the question. The post receives the status **Completed** and the end date is set to the current time.",
+      "has_image": false
+    },
+    {
+      "id": "summary",
+      "type": "prose",
+      "presentation": "summary",
+      "title": "Summary",
+      "content": "You create a post, write it with the standard and Arto blocks, save drafts, share a preview link if others need to read it, and then publish it immediately or schedule it. Duplicating and end dates apply only to campaign and listing content."
+    }
+  ]
+}

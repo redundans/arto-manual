@@ -1,0 +1,85 @@
+{
+  "id": "0aba2aee-3b0d-40d8-9a33-53f220850506",
+  "local_article_id": "cb80dcbd-4a8a-4f64-89c7-c857bb1b5a24",
+  "artifact_dir": ".rtfm/supportpages/work/125/write-and-publish-an-article",
+  "started_at": "2026-11-09T13:39:58.792Z",
+  "section_id": null,
+  "status": "finalized",
+  "skills_version": "1.63.0",
+  "article_type": "how-to",
+  "progress": {
+    "attempt": "32c3e90a-5e47-4c13-a9b2-83a90b9e6e38",
+    "article": {
+      "repository_connection": {
+        "state": "not_connected",
+        "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion",
+        "capabilities": {
+          "sections": false,
+          "suggestions": false,
+          "code_analysis": false,
+          "maintenance": false
+        }
+      },
+      "id": "1350",
+      "revision": "89f54bf37e82744f76080f43ac78b86eef09024455b01a4c89bd9a2dedab47d3",
+      "status": "draft",
+      "editor_url": "https://app.supportpages.io/projects/project-d6ea4432/articles_page?article=1350",
+      "public_url": null
+    },
+    "sequence": 6,
+    "article_hash": "e4525475c91dad0b954dc2976524ebc35fecd72cc2aa39a0b61a15c983462a4e",
+    "image_hashes": {
+      "create-post": "8c5ea83907ebb77c8fc506a713389f39701238e5e7e8b948d8316c2fdb531233",
+      "share-preview": "ba6775679213db87469d658b57c695eccc4d18dd2cf9a29e0444fca7cf45d449",
+      "set-end-date": "561ba0201fda3ccfae134f4cbed89de9b888bc0f1a4f0b060807ce4b671ffdfa"
+    },
+    "last_heartbeat": 1794232222676,
+    "open_attempted": false
+  },
+  "title": "Write and publish an article",
+  "api_origin": "https://app.supportpages.io",
+  "project_id": "125",
+  "codebase_dir": ".",
+  "analysis_dir": ".rtfm/supportpages/setup/tasks/0a2bd19f-861a-4934-99d3-0c9979627957",
+  "prefer_background": true,
+  "open_when_ready": false,
+  "execution_mode": "background",
+  "writer_token": "1746f247-cc60-4d44-8271-304580e1f7c8",
+  "writer_started_at": "2026-11-09T13:40:24.309Z",
+  "writer_completed_at": "2026-11-09T13:50:32.343Z",
+  "first_writer_started_at": "2026-11-09T13:40:20.236Z",
+  "ready_for_review_at": "2026-11-09T13:50:33.621Z",
+  "session_id": "994e8757-5764-4921-884b-e1c9169c5e8d",
+  "updated_at": "2026-11-09T13:50:46.213Z",
+  "phase": "ready_for_review",
+  "bundle_dir": ".rtfm/supportpages/bundles/a4ed03498464762f0a6a81b7e0472180f3b73ea5e695c1b01d7a91e7fb87ac05",
+  "bundle_hash": "a4ed03498464762f0a6a81b7e0472180f3b73ea5e695c1b01d7a91e7fb87ac05",
+  "remote": {
+    "repository_connection": {
+      "state": "not_connected",
+      "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion",
+      "capabilities": {
+        "sections": false,
+        "suggestions": false,
+        "code_analysis": false,
+        "maintenance": false
+      }
+    },
+    "id": "1350",
+    "revision": "e2271f601e97f21b04bbbdcc9aa9905549ae465eb1624d78eabd0fc422cc1a33",
+    "status": "draft",
+    "editor_url": "https://app.supportpages.io/projects/project-d6ea4432/articles_page?article=1350",
+    "public_url": null,
+    "local_article_id": "cb80dcbd-4a8a-4f64-89c7-c857bb1b5a24",
+    "title": "Write and publish an article",
+    "section_id": null,
+    "deleted_at": null,
+    "accepted_bundle_hash": "a4ed03498464762f0a6a81b7e0472180f3b73ea5e695c1b01d7a91e7fb87ac05",
+    "generation": {
+      "run_id": "0aba2aee-3b0d-40d8-9a33-53f220850506",
+      "attempt": "32c3e90a-5e47-4c13-a9b2-83a90b9e6e38",
+      "state": "complete"
+    }
+  },
+  "repository_reminder_checked": true
+}

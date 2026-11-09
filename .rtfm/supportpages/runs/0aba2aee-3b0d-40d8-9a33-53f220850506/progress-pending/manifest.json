@@ -1,0 +1,20 @@
+{
+  "bundle_version": 1,
+  "local_article_id": "cb80dcbd-4a8a-4f64-89c7-c857bb1b5a24",
+  "run_id": "0aba2aee-3b0d-40d8-9a33-53f220850506",
+  "skills_version": "1.63.0",
+  "source_commit": null,
+  "source_dirty": true,
+  "section_id": null,
+  "article_sha256": "e4525475c91dad0b954dc2976524ebc35fecd72cc2aa39a0b61a15c983462a4e",
+  "images": [
+    {
+      "block_id": "create-post",
+      "filename": "block_create-post.png",
+      "sha256": "8c5ea83907ebb77c8fc506a713389f39701238e5e7e8b948d8316c2fdb531233",
+      "size": 60941,
+      "mime_type": "image/png"
+    }
+  ],
+  "bundle_hash": "10fb278b68e0eca4cc4074d2edba5c90ddcf7316fa26364efddf78297f8cd111"
+}

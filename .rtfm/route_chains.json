@@ -1,0 +1,30 @@
+{
+  "resolved": 2,
+  "skipped": 0,
+  "total_files": 0,
+  "routes": {
+    "login": {
+      "primary_view": "web/wp/wp-login.php",
+      "files": 0,
+      "unresolved": 0,
+      "max_depth": 0,
+      "truncated": false
+    },
+    "lostpassword": {
+      "primary_view": "web/wp/wp-login.php",
+      "files": 0,
+      "unresolved": 0,
+      "max_depth": 0,
+      "truncated": false
+    }
+  },
+  "layouts": {
+    "wp-login": {
+      "path": "web/wp/wp-login.php",
+      "files": 0,
+      "unresolved": 0,
+      "max_depth": 0,
+      "truncated": false
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-09T13:18:46.803Z",
+  "enabled": true,
+  "blocks": [
+    {
+      "key": "glomt-losenordet",
+      "block_id": "glomt-losenordet",
+      "index": 1,
+      "questions_total": 4,
+      "blocking": 0,
+      "checkable": 3,
+      "resolved": 0,
+      "unresolved": [
+        {
+          "id": "glomt-losenordet#1",
+          "kind": "invented_copy",
+          "severity": "advisory"
+        },
+        {
+          "id": "glomt-losenordet#2",
+          "kind": "source_labels_missing",
+          "severity": "advisory"
+        },
+        {
+          "id": "glomt-losenordet#3",
+          "kind": "source_form_fields_missing",
+          "severity": "advisory"
+        }
+      ],
+      "questions": [
+        {
+          "id": "glomt-losenordet#1",
+          "kind": "invented_copy",
+          "severity": "advisory",
+          "check": "metric_count_max",
+          "resolved": false
+        },
+        {
+          "id": "glomt-losenordet#2",
+          "kind": "source_labels_missing",
+          "severity": "advisory",
+          "check": "html_contains_any",
+          "resolved": false
+        },
+        {
+          "id": "glomt-losenordet#3",
+          "kind": "source_form_fields_missing",
+          "severity": "advisory",
+          "check": "html_control_count_min",
+          "resolved": false
+        },
+        {
+          "id": "glomt-losenordet#4",
+          "kind": "compare",
+          "severity": "advisory",
+          "check": "manual",
+          "resolved": null
+        }
+      ],
+      "html_changed": false,
+      "png_changed": false,
+      "render_before": 97,
+      "render_after": 97,
+      "chrome_before": null,
+      "chrome_after": null,
+      "errors_after": 0,
+      "warnings_after": 1
+    },
+    {
+      "key": "logga-in",
+      "block_id": "logga-in",
+      "index": 0,
+      "questions_total": 3,
+      "blocking": 0,
+      "checkable": 2,
+      "resolved": 0,
+      "unresolved": [
+        {
+          "id": "logga-in#1",
+          "kind": "source_labels_missing",
+          "severity": "advisory"
+        },
+        {
+          "id": "logga-in#2",
+          "kind": "source_form_fields_missing",
+          "severity": "advisory"
+        }
+      ],
+      "questions": [
+        {
+          "id": "logga-in#1",
+          "kind": "source_labels_missing",
+          "severity": "advisory",
+          "check": "html_contains_any",
+          "resolved": false
+        },
+        {
+          "id": "logga-in#2",
+          "kind": "source_form_fields_missing",
+          "severity": "advisory",
+          "check": "html_control_count_min",
+          "resolved": false
+        },
+        {
+          "id": "logga-in#3",
+          "kind": "compare",
+          "severity": "advisory",
+          "check": "manual",
+          "resolved": null
+        }
+      ],
+      "html_changed": true,
+      "png_changed": false,
+      "render_before": 97,
+      "render_after": 97,
+      "chrome_before": null,
+      "chrome_after": null,
+      "errors_after": 0,
+      "warnings_after": 0
+    }
+  ],
+  "totals": {
+    "blocks_ticketed": 2,
+    "questions": 7,
+    "blocking": 0,
+    "checkable": 5,
+    "resolved": 0,
+    "blocks_html_changed": 1,
+    "blocks_png_changed": 0,
+    "blocks_with_errors_after": 0
+  }
+}

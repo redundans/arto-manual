@@ -1,0 +1,229 @@
+{
+  "article_sync": true,
+  "walkthrough_sync": true,
+  "article_capacity": {
+    "used": 0,
+    "limit": null,
+    "can_create": true,
+    "upgrade_url": "https://app.supportpages.io/billing",
+    "manage_articles_url": "https://app.supportpages.io/projects"
+  },
+  "progressive_articles": true,
+  "repository_connection": {
+    "writer": {
+      "version": 1,
+      "actions": {
+        "read_articles": {
+          "action": "read_articles",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read"
+          ],
+          "next_step": null
+        },
+        "create_article": {
+          "action": "create_article",
+          "allowed": true,
+          "execution": "local",
+          "required_scopes": [
+            "read",
+            "import"
+          ],
+          "next_step": null
+        },
+        "update_article": {
+          "action": "update_article",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "manage"
+          ],
+          "next_step": null
+        },
+        "edit_article": {
+          "action": "edit_article",
+          "allowed": true,
+          "execution": "local",
+          "required_scopes": [
+            "read",
+            "manage"
+          ],
+          "next_step": null
+        },
+        "publish_article": {
+          "action": "publish_article",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "publish"
+          ],
+          "next_step": null
+        },
+        "unpublish_article": {
+          "action": "unpublish_article",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "publish"
+          ],
+          "next_step": null
+        },
+        "delete_article": {
+          "action": "delete_article",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "manage"
+          ],
+          "next_step": null
+        },
+        "find_article_gaps": {
+          "action": "find_article_gaps",
+          "allowed": false,
+          "execution": "hosted",
+          "required_scopes": [
+            "read",
+            "generate"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "find_article_gaps",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "suggest_sections": {
+          "action": "suggest_sections",
+          "allowed": false,
+          "execution": "hosted",
+          "required_scopes": [
+            "read",
+            "generate"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "suggest_sections",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "recommend_articles": {
+          "action": "recommend_articles",
+          "allowed": false,
+          "execution": "hosted",
+          "required_scopes": [
+            "read",
+            "generate"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "recommend_articles",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "review_sections": {
+          "action": "review_sections",
+          "allowed": false,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "manage"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "review_sections",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "review_recommendations": {
+          "action": "review_recommendations",
+          "allowed": false,
+          "execution": "remote",
+          "required_scopes": [
+            "read",
+            "manage"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "review_recommendations",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "create_video_walkthrough": {
+          "action": "create_video_walkthrough",
+          "allowed": false,
+          "execution": "hosted",
+          "required_scopes": [
+            "read",
+            "generate"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "create_video_walkthrough",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        },
+        "get_operation": {
+          "action": "get_operation",
+          "allowed": true,
+          "execution": "remote",
+          "required_scopes": [
+            "read"
+          ],
+          "next_step": null
+        },
+        "generate_help_centre": {
+          "action": "generate_help_centre",
+          "allowed": false,
+          "execution": "hosted",
+          "required_scopes": [
+            "read",
+            "generate"
+          ],
+          "next_step": {
+            "code": "repository_required",
+            "message": "Connect a repository to continue.",
+            "requested_action": "generate_help_centre",
+            "url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion"
+          }
+        }
+      }
+    },
+    "state": "not_connected",
+    "connect_url": "https://app.supportpages.io/projects/project-d6ea4432/repository_connection?source=completion",
+    "capabilities": {
+      "sections": false,
+      "suggestions": false,
+      "code_analysis": false,
+      "maintenance": false
+    }
+  },
+  "project": {
+    "id": "125",
+    "name": "Arto Manual",
+    "help_centre_url": "https://arto-manual.supportpages.io"
+  },
+  "supported_bundle_versions": [
+    1
+  ],
+  "sections": [],
+  "articles": [],
+  "product_context": {},
+  "inventory_truncated": false,
+  "project_overview": null,
+  "analysis_summary": null,
+  "writing_style": "Voice: warm and conversational, but never saccharine. Helpful colleague, not a marketing campaign.\nVocabulary: everyday language over jargon — \"set up\" rather than \"configure\", \"turn on\" rather than \"enable\" where it reads naturally.\nSentence structure: brief and natural. One friendly sentence beats three wordy ones.\nPoint of view: address the reader directly as \"you\".\nDo: \"Open **Settings** and pick the workspace you want to share.\" / \"You're all set — changes save automatically.\"\nDon't: \"We're SO excited for you to try this amazing feature!\" / corporate cheerfulness or exclamation pile-ups.",
+  "project_name": "Arto Manual",
+  "article_title": "Logga in i Arto",
+  "article_description": "Svensk manual för redaktörer och administratörer om hur man loggar in i Arto (hopp-wordpress, WordPress multisite med Bedrock, källkod i /Users/jespernilsson/Development/hopp-wordpress). Fakta från koden: Inloggning sker på sajtens egen adress + /wp-admin/ (t.ex. https://<sajt>/wp-admin/), som skickar vidare till wp-login.php. Inloggningssidan visar Artos logotyp, har ingen språkväljare och är på svenska (locale sv_SE). Ange användarnamn eller e-post och lösenord. Private Captcha kan visas på inloggningsformuläret och måste lösas (klicka i rutan) innan man loggar in; därför fokuseras inte fältet automatiskt. Tvåstegsverifiering (plugin Two Factor: autentiseringsapp/TOTP, e-postkod, reservkoder) – på sajter med inställningen force_2fa_for_admins (t.ex. Arbetet) måste administratörer slå på tvåstegsverifiering; annars skickas de till sin profil (profile.php#two-factor-options) och får begränsad behörighet tills det är gjort. Glömt lösenord: länken \"Glömt lösenordet?\" på inloggningssidan, e-post skickas via Amazon SES. Nya användare får inget välkomstmejl automatiskt – administratören lägger till dem och de sätter lösenord via \"Glömt lösenordet?\". För många inloggningsförsök: servern begränsar till ca 5 försök per minut per IP-adress – vänta en minut. Felsökning: om man skickas tillbaka till inloggningssidan i en loop, gå direkt till https://<sajt>/wp-admin/. Kontakta Oktavilla vid problem. Skriv på svenska.",
+  "article_type": "how-to"
+}

@@ -1,0 +1,28 @@
+{
+  "total_ms": 3478,
+  "browser_launch_ms": 684,
+  "concurrency": 1,
+  "all_passed": true,
+  "steps": [
+    {
+      "file": "block_glomt-losenordet.html",
+      "ok": true,
+      "ms": 1394,
+      "quality": "good",
+      "score": 97,
+      "geometry_errors": [],
+      "evidence_invisible": [],
+      "evidence_checked": 3
+    },
+    {
+      "file": "block_logga-in.html",
+      "ok": true,
+      "ms": 1294,
+      "quality": "good",
+      "score": 97,
+      "geometry_errors": [],
+      "evidence_invisible": [],
+      "evidence_checked": 5
+    }
+  ]
+}

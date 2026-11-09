@@ -1,0 +1,20 @@
+{
+  "bundle_version": 1,
+  "local_article_id": "b724e60a-5e36-4e4d-a646-e522d065b036",
+  "run_id": "08e4f856-0b53-4477-902e-fea4b8cc36e6",
+  "skills_version": "1.63.0",
+  "source_commit": null,
+  "source_dirty": true,
+  "section_id": null,
+  "article_sha256": "ec17dd468bf6a70ad9d25bceba3b63395e372318a5841039264ac95757ef08be",
+  "images": [
+    {
+      "block_id": "glomt-losenordet",
+      "filename": "block_glomt-losenordet.png",
+      "sha256": "da38d64fe3c04b0098d9ed560920e9f6bc70be9a8eb4dba0aea18c1649510305",
+      "size": 100471,
+      "mime_type": "image/png"
+    }
+  ],
+  "bundle_hash": "46db7b205e4fd45371617645626abdb7995363d592d380f4f9d64898bc6f1ae9"
+}
